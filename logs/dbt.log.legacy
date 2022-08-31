@@ -123,3 +123,1703 @@ There are 1 unused configuration paths:
 2022-08-31 13:06:05.741694 (Thread-20): handling status request
 2022-08-31 13:06:05.743254 (Thread-20): 13:06:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f964032e5e0>]}
 2022-08-31 13:06:05.743755 (Thread-20): sending response (<Response 2081 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:06:07.542642 (Thread-21): 13:06:07  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-08-31 13:06:07.542824 (Thread-21): 13:06:07  Partial parsing enabled, no changes found, skipping parsing
+2022-08-31 13:06:07.542953 (Thread-21): 13:06:07  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:06:07.547601 (Thread-21): 13:06:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961da0baf0>]}
+2022-08-31 13:06:08.485924 (Thread-22): handling status request
+2022-08-31 13:06:08.486274 (Thread-22): 13:06:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961dad8940>]}
+2022-08-31 13:06:08.486753 (Thread-22): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:06:08.927273 (Thread-23): handling status request
+2022-08-31 13:06:08.927625 (Thread-23): 13:06:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961dad8790>]}
+2022-08-31 13:06:08.928092 (Thread-23): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:06:48.803940 (Thread-24): 13:06:48  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-08-31 13:06:48.805610 (Thread-24): 13:06:48  Partial parsing: added file: my_new_project://models/shoppingcentre.sql
+2022-08-31 13:06:48.810172 (Thread-24): 13:06:48  1699: static parser successfully parsed shoppingcentre.sql
+2022-08-31 13:06:48.856637 (Thread-24): 13:06:48  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:06:48.861511 (Thread-24): 13:06:48  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961db13340>]}
+2022-08-31 13:06:49.523841 (Thread-25): handling status request
+2022-08-31 13:06:49.524242 (Thread-25): 13:06:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961daf0e80>]}
+2022-08-31 13:06:49.524787 (Thread-25): sending response (<Response 2015 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:06:49.529416 (Thread-26): handling list request
+2022-08-31 13:06:49.529677 (Thread-26): 13:06:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961daf06a0>]}
+2022-08-31 13:06:49.546236 (Thread-26): 13:06:49  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961dae7550>]}
+2022-08-31 13:06:49.546767 (Thread-26): 13:06:49  Found 1 model, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:06:49.547069 (Thread-26): 13:06:49  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96585b6e50>]}
+2022-08-31 13:06:49.547822 (Thread-26): 13:06:49  The selection criterion '+models/shoppingcentre.sql+' does not match any nodes
+2022-08-31 13:06:49.547962 (Thread-26): 13:06:49  No nodes selected!
+2022-08-31 13:06:49.549421 (Thread-26): sending response (<Response 2536 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:06:49.887873 (Thread-27): handling status request
+2022-08-31 13:06:49.888228 (Thread-27): 13:06:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961dadcfa0>]}
+2022-08-31 13:06:49.888730 (Thread-27): sending response (<Response 2039 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:06:50.023326 (Thread-28): handling status request
+2022-08-31 13:06:50.023690 (Thread-28): 13:06:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961dadc760>]}
+2022-08-31 13:06:50.024355 (Thread-28): sending response (<Response 2039 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:07:44.073225 (Thread-29): 13:07:44  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:07:44.074744 (Thread-29): 13:07:44  Partial parsing: updated file: my_new_project://models/shoppingcentre.sql
+2022-08-31 13:07:44.205935 (Thread-29): 13:07:44  1699: static parser successfully parsed shoppingcentre.sql
+2022-08-31 13:07:44.248089 (Thread-29): 13:07:44  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:07:44.253136 (Thread-29): 13:07:44  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96414660d0>]}
+2022-08-31 13:07:44.708372 (Thread-30): handling status request
+2022-08-31 13:07:44.708734 (Thread-30): 13:07:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961d9c0400>]}
+2022-08-31 13:07:44.709219 (Thread-30): sending response (<Response 2017 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:07:44.713929 (Thread-31): handling list request
+2022-08-31 13:07:44.714173 (Thread-31): 13:07:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961d9c0460>]}
+2022-08-31 13:07:44.728422 (Thread-31): 13:07:44  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f964146d310>]}
+2022-08-31 13:07:44.728948 (Thread-31): 13:07:44  Found 1 model, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:07:44.729216 (Thread-31): 13:07:44  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f964146d850>]}
+2022-08-31 13:07:44.730972 (Thread-31): sending response (<Response 2302 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:07:44.985950 (Thread-32): handling status request
+2022-08-31 13:07:44.986372 (Thread-32): 13:07:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961d9c0a00>]}
+2022-08-31 13:07:44.986861 (Thread-32): sending response (<Response 2041 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:07:45.106431 (Thread-33): handling status request
+2022-08-31 13:07:45.106829 (Thread-33): 13:07:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f964146d730>]}
+2022-08-31 13:07:45.107297 (Thread-33): sending response (<Response 2041 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:07:48.881609 (Thread-34): handling status request
+2022-08-31 13:07:48.882023 (Thread-34): 13:07:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96414646a0>]}
+2022-08-31 13:07:48.882516 (Thread-34): sending response (<Response 2041 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:07:49.256107 (Thread-35): handling run_sql request
+2022-08-31 13:07:49.256454 (Thread-35): 13:07:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f964146a100>]}
+2022-08-31 13:07:51.588262 (Thread-35): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:07:51.615159 (MainThread): 13:07:51  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '86882062-615c-486c-af30-90faf5a9b689', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f59937f8b20>]}
+2022-08-31 13:07:51.615693 (MainThread): 13:07:51  Found 1 model, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:07:51.616378 (Thread-1): 13:07:51  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:07:51.616532 (Thread-1): 13:07:51  Began compiling node rpc.my_new_project.request
+2022-08-31 13:07:51.616635 (Thread-1): 13:07:51  Compiling rpc.my_new_project.request
+2022-08-31 13:07:51.619131 (Thread-1): 13:07:51  finished collecting timing info
+2022-08-31 13:07:51.619270 (Thread-1): 13:07:51  Began executing node rpc.my_new_project.request
+2022-08-31 13:07:51.619373 (Thread-1): 13:07:51  Opening a new connection, currently in state init
+2022-08-31 13:07:51.623957 (Thread-1): 13:07:51  On rpc.my_new_project.request: 
+
+with transform_shopping_centre as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.ShoppingCentres
+)
+
+select * from transform_shopping_centre
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:07:52.032144 (Thread-36): handling poll request
+2022-08-31 13:07:52.032654 (Thread-36): 13:07:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96413d20d0>]}
+2022-08-31 13:07:52.033592 (Thread-36): sending response (<Response 3849 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:07:53.050601 (Thread-1): 13:07:53  finished collecting timing info
+2022-08-31 13:07:53.401034 (Thread-37): handling poll request
+2022-08-31 13:07:53.401408 (Thread-37): 13:07:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961db16400>]}
+2022-08-31 13:07:53.404031 (Thread-37): sending response (<Response 113282 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:08:18.768735 (Thread-38): 13:08:18  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-08-31 13:08:18.769060 (Thread-38): 13:08:18  Partial parsing: added file: my_new_project://models/childcarecentre.sql
+2022-08-31 13:08:18.773990 (Thread-38): 13:08:18  1699: static parser successfully parsed childcarecentre.sql
+2022-08-31 13:08:18.812310 (Thread-38): 13:08:18  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:08:18.817692 (Thread-38): 13:08:18  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96402f0e20>]}
+2022-08-31 13:08:19.844879 (Thread-39): handling status request
+2022-08-31 13:08:19.845236 (Thread-39): 13:08:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96400764f0>]}
+2022-08-31 13:08:19.845768 (Thread-39): sending response (<Response 2041 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:08:19.960525 (Thread-40): handling status request
+2022-08-31 13:08:19.960877 (Thread-40): 13:08:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9640076130>]}
+2022-08-31 13:08:19.961343 (Thread-40): sending response (<Response 2041 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:09:07.249985 (Thread-41): handling status request
+2022-08-31 13:09:07.250345 (Thread-41): 13:09:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9640076490>]}
+2022-08-31 13:09:07.250824 (Thread-41): sending response (<Response 2041 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:09:07.596740 (Thread-42): handling run_sql request
+2022-08-31 13:09:07.597097 (Thread-42): 13:09:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9640076610>]}
+2022-08-31 13:09:09.970069 (Thread-42): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:09:09.996254 (MainThread): 13:09:09  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a78cc2c4-2130-40ce-bb2f-16ed3f9708bf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f743328ffd0>]}
+2022-08-31 13:09:09.996796 (MainThread): 13:09:09  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:09:09.997499 (Thread-1): 13:09:09  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:09:09.997647 (Thread-1): 13:09:09  Began compiling node rpc.my_new_project.request
+2022-08-31 13:09:09.997759 (Thread-1): 13:09:09  Compiling rpc.my_new_project.request
+2022-08-31 13:09:09.999896 (Thread-1): 13:09:09  finished collecting timing info
+2022-08-31 13:09:10.000028 (Thread-1): 13:09:09  Began executing node rpc.my_new_project.request
+2022-08-31 13:09:10.000129 (Thread-1): 13:09:10  Opening a new connection, currently in state init
+2022-08-31 13:09:10.004643 (Thread-1): 13:09:10  On rpc.my_new_project.request: 
+
+with transform_child_care_centre as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.ChildCareCentres
+)
+
+select * from transform_child_care_centre
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:09:10.417355 (Thread-43): handling poll request
+2022-08-31 13:09:10.417856 (Thread-43): 13:09:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9641416910>]}
+2022-08-31 13:09:10.418744 (Thread-43): sending response (<Response 3856 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:09:11.297964 (Thread-1): 13:09:11  finished collecting timing info
+2022-08-31 13:09:11.901917 (Thread-44): handling poll request
+2022-08-31 13:09:11.902765 (Thread-44): 13:09:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96414162b0>]}
+2022-08-31 13:09:11.905344 (Thread-44): sending response (<Response 115555 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:10:33.832181 (Thread-45): handling status request
+2022-08-31 13:10:33.833708 (Thread-45): 13:10:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9640076b80>]}
+2022-08-31 13:10:33.834224 (Thread-45): sending response (<Response 2041 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:10:34.354196 (Thread-46): handling run_sql request
+2022-08-31 13:10:34.354547 (Thread-46): 13:10:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9640395fd0>]}
+2022-08-31 13:10:36.673395 (Thread-46): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:10:36.701998 (MainThread): 13:10:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2dd12fee-018c-4597-8ca7-721455b3c3e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6741f21c0>]}
+2022-08-31 13:10:36.702532 (MainThread): 13:10:36  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:10:36.703215 (Thread-1): 13:10:36  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:10:36.703365 (Thread-1): 13:10:36  Began compiling node rpc.my_new_project.request
+2022-08-31 13:10:36.703453 (Thread-1): 13:10:36  Compiling rpc.my_new_project.request
+2022-08-31 13:10:36.705658 (Thread-1): 13:10:36  finished collecting timing info
+2022-08-31 13:10:36.705794 (Thread-1): 13:10:36  Began executing node rpc.my_new_project.request
+2022-08-31 13:10:36.705897 (Thread-1): 13:10:36  Opening a new connection, currently in state init
+2022-08-31 13:10:36.710464 (Thread-1): 13:10:36  On rpc.my_new_project.request: 
+
+with transform_shopping_centre as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.ShoppingCentres
+)
+
+select * from transform_shopping_centre
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:10:37.022648 (Thread-47): handling poll request
+2022-08-31 13:10:37.023063 (Thread-47): 13:10:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f964038bd30>]}
+2022-08-31 13:10:37.023970 (Thread-47): sending response (<Response 3889 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:10:38.042360 (Thread-1): 13:10:38  finished collecting timing info
+2022-08-31 13:10:38.380449 (Thread-48): handling poll request
+2022-08-31 13:10:38.380812 (Thread-48): 13:10:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961c0d7b20>]}
+2022-08-31 13:10:38.384375 (Thread-48): sending response (<Response 125083 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:11:17.310353 (Thread-49): 13:11:17  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-08-31 13:11:17.310693 (Thread-49): 13:11:17  Partial parsing: added file: my_new_project://models/gyms.sql
+2022-08-31 13:11:17.315645 (Thread-49): 13:11:17  1699: static parser successfully parsed gyms.sql
+2022-08-31 13:11:17.360057 (Thread-49): 13:11:17  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:11:17.365610 (Thread-49): 13:11:17  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cffb05b0>]}
+2022-08-31 13:11:18.353094 (Thread-50): handling status request
+2022-08-31 13:11:18.353447 (Thread-50): 13:11:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cffe7970>]}
+2022-08-31 13:11:18.353979 (Thread-50): sending response (<Response 2019 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:11:18.572029 (Thread-51): handling status request
+2022-08-31 13:11:18.572384 (Thread-51): 13:11:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cffe77f0>]}
+2022-08-31 13:11:18.572879 (Thread-51): sending response (<Response 2019 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:10.041523 (Thread-52): 13:12:10  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:12:10.041903 (Thread-52): 13:12:10  Partial parsing: updated file: my_new_project://models/gyms.sql
+2022-08-31 13:12:10.046931 (Thread-52): 13:12:10  1699: static parser successfully parsed gyms.sql
+2022-08-31 13:12:10.087049 (Thread-52): 13:12:10  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:12:10.091979 (Thread-52): 13:12:10  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfeedb80>]}
+2022-08-31 13:12:10.890344 (Thread-53): handling status request
+2022-08-31 13:12:10.890744 (Thread-53): 13:12:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cffe39a0>]}
+2022-08-31 13:12:10.891352 (Thread-53): sending response (<Response 2021 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:10.932258 (Thread-54): handling status request
+2022-08-31 13:12:10.932616 (Thread-54): 13:12:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cffe37f0>]}
+2022-08-31 13:12:10.933081 (Thread-54): sending response (<Response 2021 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:14.386204 (Thread-55): handling status request
+2022-08-31 13:12:14.386603 (Thread-55): 13:12:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961dbcf9d0>]}
+2022-08-31 13:12:14.387087 (Thread-55): sending response (<Response 2021 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:14.789840 (Thread-56): handling run_sql request
+2022-08-31 13:12:14.790195 (Thread-56): 13:12:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cffe35e0>]}
+2022-08-31 13:12:17.101459 (Thread-56): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:17.127797 (MainThread): 13:12:17  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e4d1e4b-41d3-45a1-aee8-5511687741f0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe511684970>]}
+2022-08-31 13:12:17.128364 (MainThread): 13:12:17  Found 3 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:12:17.129072 (Thread-1): 13:12:17  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:12:17.129216 (Thread-1): 13:12:17  Began compiling node rpc.my_new_project.request
+2022-08-31 13:12:17.129305 (Thread-1): 13:12:17  Compiling rpc.my_new_project.request
+2022-08-31 13:12:17.131485 (Thread-1): 13:12:17  finished collecting timing info
+2022-08-31 13:12:17.131618 (Thread-1): 13:12:17  Began executing node rpc.my_new_project.request
+2022-08-31 13:12:17.131719 (Thread-1): 13:12:17  Opening a new connection, currently in state init
+2022-08-31 13:12:17.136312 (Thread-1): 13:12:17  On rpc.my_new_project.request: 
+
+with transform_gyms as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Gyms
+)
+
+select * from transform_gyms
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:12:17.457264 (Thread-57): handling poll request
+2022-08-31 13:12:17.457712 (Thread-57): 13:12:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961c0d79d0>]}
+2022-08-31 13:12:17.458597 (Thread-57): sending response (<Response 3846 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:18.445460 (Thread-1): 13:12:18  finished collecting timing info
+2022-08-31 13:12:18.812316 (Thread-58): handling poll request
+2022-08-31 13:12:18.813176 (Thread-58): 13:12:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961c0e5c10>]}
+2022-08-31 13:12:18.816097 (Thread-58): sending response (<Response 121566 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:27.702921 (Thread-59): 13:12:27  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:12:27.703296 (Thread-59): 13:12:27  Partial parsing: updated file: my_new_project://models/shoppingcentre.sql
+2022-08-31 13:12:27.707990 (Thread-59): 13:12:27  1699: static parser successfully parsed shoppingcentre.sql
+2022-08-31 13:12:27.753804 (Thread-59): 13:12:27  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:12:27.758945 (Thread-59): 13:12:27  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfde1970>]}
+2022-08-31 13:12:28.711551 (Thread-60): handling status request
+2022-08-31 13:12:28.711914 (Thread-60): 13:12:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfdd6d30>]}
+2022-08-31 13:12:28.712438 (Thread-60): sending response (<Response 2041 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:28.842475 (Thread-61): handling status request
+2022-08-31 13:12:28.842816 (Thread-61): 13:12:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfdd6bb0>]}
+2022-08-31 13:12:28.843291 (Thread-61): sending response (<Response 2041 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:32.952115 (Thread-62): 13:12:32  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:12:32.952452 (Thread-62): 13:12:32  Partial parsing: updated file: my_new_project://models/childcarecentre.sql
+2022-08-31 13:12:32.956866 (Thread-62): 13:12:32  1699: static parser successfully parsed childcarecentre.sql
+2022-08-31 13:12:33.009231 (Thread-62): 13:12:33  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:12:33.014038 (Thread-62): 13:12:33  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfd3b7c0>]}
+2022-08-31 13:12:33.995624 (Thread-63): handling status request
+2022-08-31 13:12:33.995981 (Thread-63): 13:12:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfdd3a00>]}
+2022-08-31 13:12:33.996471 (Thread-63): sending response (<Response 2043 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:34.101781 (Thread-64): handling status request
+2022-08-31 13:12:34.102151 (Thread-64): 13:12:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cff83820>]}
+2022-08-31 13:12:34.102609 (Thread-64): sending response (<Response 2043 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:41.349009 (Thread-65): 13:12:41  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-08-31 13:12:41.349216 (Thread-65): 13:12:41  Partial parsing enabled, no changes found, skipping parsing
+2022-08-31 13:12:41.349578 (Thread-65): 13:12:41  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:12:41.354614 (Thread-65): 13:12:41  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfe18a90>]}
+2022-08-31 13:12:42.337929 (Thread-66): handling status request
+2022-08-31 13:12:42.338297 (Thread-66): 13:12:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfd8ccd0>]}
+2022-08-31 13:12:42.338784 (Thread-66): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:12:42.465882 (Thread-67): handling status request
+2022-08-31 13:12:42.466232 (Thread-67): 13:12:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfd03f10>]}
+2022-08-31 13:12:42.466691 (Thread-67): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:01.905899 (Thread-68): 13:13:01  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-08-31 13:13:01.906235 (Thread-68): 13:13:01  Partial parsing: added file: my_new_project://models/hospitals.sql
+2022-08-31 13:13:01.911574 (Thread-68): 13:13:01  1699: static parser successfully parsed hospitals.sql
+2022-08-31 13:13:01.963234 (Thread-68): 13:13:01  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:13:01.968560 (Thread-68): 13:13:01  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfc6fc70>]}
+2022-08-31 13:13:02.965609 (Thread-69): handling status request
+2022-08-31 13:13:02.965974 (Thread-69): 13:13:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfd39c10>]}
+2022-08-31 13:13:02.966466 (Thread-69): sending response (<Response 2029 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:03.063969 (Thread-70): handling status request
+2022-08-31 13:13:03.064315 (Thread-70): 13:13:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfd39b20>]}
+2022-08-31 13:13:03.064797 (Thread-70): sending response (<Response 2029 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:23.725162 (Thread-71): 13:13:23  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:13:23.725546 (Thread-71): 13:13:23  Partial parsing: updated file: my_new_project://models/hospitals.sql
+2022-08-31 13:13:23.730208 (Thread-71): 13:13:23  1699: static parser successfully parsed hospitals.sql
+2022-08-31 13:13:23.770512 (Thread-71): 13:13:23  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:13:23.776152 (Thread-71): 13:13:23  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfc33e80>]}
+2022-08-31 13:13:24.629160 (Thread-72): handling status request
+2022-08-31 13:13:24.629551 (Thread-72): 13:13:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfd3b580>]}
+2022-08-31 13:13:24.630053 (Thread-72): sending response (<Response 2031 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:24.701069 (Thread-73): handling status request
+2022-08-31 13:13:24.701408 (Thread-73): 13:13:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfc5ba30>]}
+2022-08-31 13:13:24.701902 (Thread-73): sending response (<Response 2031 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:30.870180 (Thread-74): handling status request
+2022-08-31 13:13:30.870610 (Thread-74): 13:13:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfeedaf0>]}
+2022-08-31 13:13:30.871117 (Thread-74): sending response (<Response 2031 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:31.220370 (Thread-75): handling run_sql request
+2022-08-31 13:13:31.220783 (Thread-75): 13:13:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfdd6e20>]}
+2022-08-31 13:13:33.525787 (Thread-75): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:33.552027 (MainThread): 13:13:33  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dcfa7083-a178-4e92-936e-4f479fca53cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1594567d00>]}
+2022-08-31 13:13:33.552558 (MainThread): 13:13:33  Found 4 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:13:33.553258 (Thread-1): 13:13:33  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:13:33.553402 (Thread-1): 13:13:33  Began compiling node rpc.my_new_project.request
+2022-08-31 13:13:33.553523 (Thread-1): 13:13:33  Compiling rpc.my_new_project.request
+2022-08-31 13:13:33.555756 (Thread-1): 13:13:33  finished collecting timing info
+2022-08-31 13:13:33.555888 (Thread-1): 13:13:33  Began executing node rpc.my_new_project.request
+2022-08-31 13:13:33.555989 (Thread-1): 13:13:33  Opening a new connection, currently in state init
+2022-08-31 13:13:33.560572 (Thread-1): 13:13:33  On rpc.my_new_project.request: 
+
+with transform_hospitals as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Hospitals
+)
+
+select * from transform_hospitals
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:13:33.935161 (Thread-76): handling poll request
+2022-08-31 13:13:33.935621 (Thread-76): 13:13:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfd3b580>]}
+2022-08-31 13:13:33.936527 (Thread-76): sending response (<Response 3793 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:35.011134 (Thread-1): 13:13:35  finished collecting timing info
+2022-08-31 13:13:35.283740 (Thread-77): handling poll request
+2022-08-31 13:13:35.284570 (Thread-77): 13:13:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfd8c280>]}
+2022-08-31 13:13:35.286823 (Thread-77): sending response (<Response 81287 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:44.619940 (Thread-78): 13:13:44  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-08-31 13:13:44.620137 (Thread-78): 13:13:44  Partial parsing enabled, no changes found, skipping parsing
+2022-08-31 13:13:44.620544 (Thread-78): 13:13:44  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:13:44.625716 (Thread-78): 13:13:44  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb1df40>]}
+2022-08-31 13:13:45.672001 (Thread-79): handling status request
+2022-08-31 13:13:45.672369 (Thread-79): 13:13:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb8b580>]}
+2022-08-31 13:13:45.672894 (Thread-79): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:13:45.702928 (Thread-80): handling status request
+2022-08-31 13:13:45.703207 (Thread-80): 13:13:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb8b370>]}
+2022-08-31 13:13:45.703612 (Thread-80): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:14:25.772852 (Thread-81): 13:14:25  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-08-31 13:14:25.773185 (Thread-81): 13:14:25  Partial parsing: added file: my_new_project://models/religiousorg.sql
+2022-08-31 13:14:25.778154 (Thread-81): 13:14:25  1699: static parser successfully parsed religiousorg.sql
+2022-08-31 13:14:25.821827 (Thread-81): 13:14:25  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:14:25.827134 (Thread-81): 13:14:25  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa7a790>]}
+2022-08-31 13:14:26.713861 (Thread-82): handling status request
+2022-08-31 13:14:26.714227 (Thread-82): 13:14:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb0f700>]}
+2022-08-31 13:14:26.714748 (Thread-82): sending response (<Response 2035 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:14:26.837314 (Thread-83): handling status request
+2022-08-31 13:14:26.837681 (Thread-83): 13:14:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb0f5b0>]}
+2022-08-31 13:14:26.838153 (Thread-83): sending response (<Response 2035 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:14:46.890254 (Thread-84): 13:14:46  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:14:46.890613 (Thread-84): 13:14:46  Partial parsing: updated file: my_new_project://models/religiousorg.sql
+2022-08-31 13:14:46.895389 (Thread-84): 13:14:46  1699: static parser successfully parsed religiousorg.sql
+2022-08-31 13:14:46.937029 (Thread-84): 13:14:46  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:14:46.942304 (Thread-84): 13:14:46  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa2dd90>]}
+2022-08-31 13:14:47.875844 (Thread-85): handling status request
+2022-08-31 13:14:47.876193 (Thread-85): 13:14:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa41730>]}
+2022-08-31 13:14:47.876693 (Thread-85): sending response (<Response 2037 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:14:47.939054 (Thread-86): handling status request
+2022-08-31 13:14:47.939372 (Thread-86): 13:14:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa41580>]}
+2022-08-31 13:14:47.939832 (Thread-86): sending response (<Response 2037 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:14:50.250658 (Thread-87): handling status request
+2022-08-31 13:14:50.251006 (Thread-87): 13:14:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa41490>]}
+2022-08-31 13:14:50.251488 (Thread-87): sending response (<Response 2037 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:14:50.633949 (Thread-88): handling run_sql request
+2022-08-31 13:14:50.634302 (Thread-88): 13:14:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa41370>]}
+2022-08-31 13:14:52.958497 (Thread-88): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:14:52.984724 (MainThread): 13:14:52  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '459e0690-9101-4206-873e-5752145406b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc26bf12fa0>]}
+2022-08-31 13:14:52.985276 (MainThread): 13:14:52  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:14:52.986003 (Thread-1): 13:14:52  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:14:52.986148 (Thread-1): 13:14:52  Began compiling node rpc.my_new_project.request
+2022-08-31 13:14:52.986235 (Thread-1): 13:14:52  Compiling rpc.my_new_project.request
+2022-08-31 13:14:52.988464 (Thread-1): 13:14:52  finished collecting timing info
+2022-08-31 13:14:52.988672 (Thread-1): 13:14:52  Began executing node rpc.my_new_project.request
+2022-08-31 13:14:52.988841 (Thread-1): 13:14:52  Opening a new connection, currently in state init
+2022-08-31 13:14:52.993497 (Thread-1): 13:14:52  On rpc.my_new_project.request: 
+
+with transform_religious_org as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-bq-361110.batchdata.ChurchesReligiousOrg
+)
+
+select * from transform_religious_org
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:14:53.369272 (Thread-1): 13:14:53  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: Name at [6:9]')
+2022-08-31 13:14:53.703305 (Thread-89): handling poll request
+2022-08-31 13:14:53.703718 (Thread-89): 13:14:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfc5b910>]}
+2022-08-31 13:14:53.704641 (Thread-89): sending response (<Response 4142 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:14:53.839725 (Thread-1): 13:14:53  finished collecting timing info
+2022-08-31 13:14:53.839926 (Thread-1): Got an exception: Database Error
+  Unrecognized name: Name at [6:9]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 194, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 412, in fn
+    return self._query_and_results(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 596, in _query_and_results
+    iterator = query_job.result(timeout=job_execution_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/query.py", line 1303, in result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/base.py", line 679, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: Name at [6:9]
+
+(job ID: 66b6967b-b2e0-455a-a871-115eae12549f)
+
+             -----Query Job SQL Follows-----              
+
+    |    .    |    .    |    .    |    .    |    .    |
+   1:
+   2:
+   3:with transform_religious_org as (
+   4:
+   5:    select 
+   6:        Name
+   7:        ,Categories
+   8:        ,Address
+   9:        ,City
+  10:        ,State
+  11:        ,Postcode
+  12:        ,Phone
+  13:        ,Website
+  14:        ,Email
+  15:    from dbt-bq-361110.batchdata.ChurchesReligiousOrg
+  16:)
+  17:
+  18:select * from transform_religious_org
+  19:limit 500
+  20:/* limit added automatically by dbt cloud */
+    |    .    |    .    |    .    |    .    |    .    |
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 384, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 337, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 428, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 242, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 429, in execute
+    query_job, iterator = self.raw_execute(sql, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 420, in raw_execute
+    query_job, iterator = self._retry_and_handle(msg=sql, conn=conn, fn=fn)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 198, in exception_handler
+    self.handle_error(e, message)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 186, in handle_error
+    raise DatabaseException(error_msg)
+dbt.exceptions.DatabaseException: Database Error
+  Unrecognized name: Name at [6:9]
+2022-08-31 13:14:53.841884 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Name at [6:9]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_religious_org as (\r\n\r\n    select \r\n        Name\r\n        ,Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\r\n)\r\n\r\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_religious_org as (\n\n    select \n        Name\n        ,Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\n)\n\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 402, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Name at [6:9]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_religious_org as (\r\n\r\n    select \r\n        Name\r\n        ,Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\r\n)\r\n\r\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_religious_org as (\n\n    select \n        Name\n        ,Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\n)\n\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-08-31 13:14:55.120076 (Thread-90): handling poll request
+2022-08-31 13:14:55.120437 (Thread-90): 13:14:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa46d90>]}
+2022-08-31 13:14:55.121088 (Thread-90): sending response (<Response 12381 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:15:59.034385 (Thread-91): 13:15:59  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-08-31 13:15:59.035801 (Thread-91): 13:15:59  Partial parsing enabled, no changes found, skipping parsing
+2022-08-31 13:15:59.036211 (Thread-91): 13:15:59  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:15:59.041425 (Thread-91): 13:15:59  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfe18c10>]}
+2022-08-31 13:15:59.770544 (Thread-92): handling status request
+2022-08-31 13:15:59.770891 (Thread-92): 13:15:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa41f40>]}
+2022-08-31 13:15:59.771361 (Thread-92): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:16:00.053351 (Thread-93): handling status request
+2022-08-31 13:16:00.053732 (Thread-93): 13:16:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfad8c10>]}
+2022-08-31 13:16:00.054201 (Thread-93): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:16:02.655644 (Thread-94): handling status request
+2022-08-31 13:16:02.656007 (Thread-94): 13:16:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa1f0d0>]}
+2022-08-31 13:16:02.656488 (Thread-94): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:16:03.144899 (Thread-95): handling run_sql request
+2022-08-31 13:16:03.145253 (Thread-95): 13:16:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa1f130>]}
+2022-08-31 13:16:05.503634 (Thread-95): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:16:05.529963 (MainThread): 13:16:05  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '123908c7-a569-4688-a3e8-0755794064e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ac6dc0cd0>]}
+2022-08-31 13:16:05.530482 (MainThread): 13:16:05  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:16:05.531204 (Thread-1): 13:16:05  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:16:05.531353 (Thread-1): 13:16:05  Began compiling node rpc.my_new_project.request
+2022-08-31 13:16:05.531460 (Thread-1): 13:16:05  Compiling rpc.my_new_project.request
+2022-08-31 13:16:05.533660 (Thread-1): 13:16:05  finished collecting timing info
+2022-08-31 13:16:05.533801 (Thread-1): 13:16:05  Began executing node rpc.my_new_project.request
+2022-08-31 13:16:05.533903 (Thread-1): 13:16:05  Opening a new connection, currently in state init
+2022-08-31 13:16:05.538486 (Thread-1): 13:16:05  On rpc.my_new_project.request: 
+
+with transform_religious_org as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-bq-361110.batchdata.ChurchesReligiousOrg
+)
+
+select * from transform_religious_org
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:16:05.901386 (Thread-1): 13:16:05  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: Name at [6:9]')
+2022-08-31 13:16:05.906565 (Thread-96): handling poll request
+2022-08-31 13:16:05.906922 (Thread-96): 13:16:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa2d250>]}
+2022-08-31 13:16:05.907756 (Thread-96): sending response (<Response 4142 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:16:06.889921 (Thread-1): 13:16:06  finished collecting timing info
+2022-08-31 13:16:06.890138 (Thread-1): Got an exception: Database Error
+  Unrecognized name: Name at [6:9]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 194, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 412, in fn
+    return self._query_and_results(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 596, in _query_and_results
+    iterator = query_job.result(timeout=job_execution_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/query.py", line 1303, in result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/base.py", line 679, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: Name at [6:9]
+
+(job ID: d0c67e64-ab57-46e0-a8e2-d7eae1d41dbb)
+
+             -----Query Job SQL Follows-----              
+
+    |    .    |    .    |    .    |    .    |    .    |
+   1:
+   2:
+   3:with transform_religious_org as (
+   4:
+   5:    select 
+   6:        Name
+   7:        ,Categories
+   8:        ,Address
+   9:        ,City
+  10:        ,State
+  11:        ,Postcode
+  12:        ,Phone
+  13:        ,Website
+  14:        ,Email
+  15:    from dbt-bq-361110.batchdata.ChurchesReligiousOrg
+  16:)
+  17:
+  18:select * from transform_religious_org
+  19:limit 500
+  20:/* limit added automatically by dbt cloud */
+    |    .    |    .    |    .    |    .    |    .    |
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 384, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 337, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 428, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 242, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 429, in execute
+    query_job, iterator = self.raw_execute(sql, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 420, in raw_execute
+    query_job, iterator = self._retry_and_handle(msg=sql, conn=conn, fn=fn)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 198, in exception_handler
+    self.handle_error(e, message)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 186, in handle_error
+    raise DatabaseException(error_msg)
+dbt.exceptions.DatabaseException: Database Error
+  Unrecognized name: Name at [6:9]
+2022-08-31 13:16:06.891995 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Name at [6:9]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_religious_org as (\r\n\r\n    select \r\n        Name\r\n        ,Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\r\n)\r\n\r\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_religious_org as (\n\n    select \n        Name\n        ,Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\n)\n\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 402, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Name at [6:9]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_religious_org as (\r\n\r\n    select \r\n        Name\r\n        ,Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\r\n)\r\n\r\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_religious_org as (\n\n    select \n        Name\n        ,Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\n)\n\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-08-31 13:16:07.310785 (Thread-97): handling poll request
+2022-08-31 13:16:07.311140 (Thread-97): 13:16:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa2d670>]}
+2022-08-31 13:16:07.311737 (Thread-97): sending response (<Response 12381 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:16:45.537891 (Thread-98): handling status request
+2022-08-31 13:16:45.538245 (Thread-98): 13:16:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb4b3a0>]}
+2022-08-31 13:16:45.538744 (Thread-98): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:16:45.935426 (Thread-99): handling run_sql request
+2022-08-31 13:16:45.935768 (Thread-99): 13:16:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb4b580>]}
+2022-08-31 13:16:48.246522 (Thread-99): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:16:48.272754 (MainThread): 13:16:48  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5daa20ef-7ccd-4650-8f89-f713f9d7a2c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6a31f7d00>]}
+2022-08-31 13:16:48.273271 (MainThread): 13:16:48  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:16:48.273963 (Thread-1): 13:16:48  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:16:48.274109 (Thread-1): 13:16:48  Began compiling node rpc.my_new_project.request
+2022-08-31 13:16:48.274213 (Thread-1): 13:16:48  Compiling rpc.my_new_project.request
+2022-08-31 13:16:48.276323 (Thread-1): 13:16:48  finished collecting timing info
+2022-08-31 13:16:48.276455 (Thread-1): 13:16:48  Began executing node rpc.my_new_project.request
+2022-08-31 13:16:48.276569 (Thread-1): 13:16:48  Opening a new connection, currently in state init
+2022-08-31 13:16:48.281110 (Thread-1): 13:16:48  On rpc.my_new_project.request: 
+
+with transform_religious_org as (
+
+    select 
+         Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-bq-361110.batchdata.ChurchesReligiousOrg
+)
+
+select * from transform_religious_org
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:16:48.705175 (Thread-1): 13:16:48  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: Categories; Did you mean Category? at [6:10]')
+2022-08-31 13:16:48.719524 (Thread-100): handling poll request
+2022-08-31 13:16:48.719895 (Thread-100): 13:16:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb52370>]}
+2022-08-31 13:16:48.720753 (Thread-100): sending response (<Response 4159 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:16:49.749589 (Thread-1): 13:16:49  finished collecting timing info
+2022-08-31 13:16:49.749802 (Thread-1): Got an exception: Database Error
+  Unrecognized name: Categories; Did you mean Category? at [6:10]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 194, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 412, in fn
+    return self._query_and_results(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 596, in _query_and_results
+    iterator = query_job.result(timeout=job_execution_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/query.py", line 1303, in result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/base.py", line 679, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: Categories; Did you mean Category? at [6:10]
+
+(job ID: a75f9fbb-ecf3-4639-9e2c-9723ca515faa)
+
+             -----Query Job SQL Follows-----              
+
+    |    .    |    .    |    .    |    .    |    .    |
+   1:
+   2:
+   3:with transform_religious_org as (
+   4:
+   5:    select 
+   6:         Categories
+   7:        ,Address
+   8:        ,City
+   9:        ,State
+  10:        ,Postcode
+  11:        ,Phone
+  12:        ,Website
+  13:        ,Email
+  14:    from dbt-bq-361110.batchdata.ChurchesReligiousOrg
+  15:)
+  16:
+  17:select * from transform_religious_org
+  18:limit 500
+  19:/* limit added automatically by dbt cloud */
+    |    .    |    .    |    .    |    .    |    .    |
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 384, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 337, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 428, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 242, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 429, in execute
+    query_job, iterator = self.raw_execute(sql, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 420, in raw_execute
+    query_job, iterator = self._retry_and_handle(msg=sql, conn=conn, fn=fn)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 198, in exception_handler
+    self.handle_error(e, message)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 186, in handle_error
+    raise DatabaseException(error_msg)
+dbt.exceptions.DatabaseException: Database Error
+  Unrecognized name: Categories; Did you mean Category? at [6:10]
+2022-08-31 13:16:49.751686 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Categories; Did you mean Category? at [6:10]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_religious_org as (\r\n\r\n    select \r\n         Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\r\n)\r\n\r\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_religious_org as (\n\n    select \n         Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\n)\n\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 402, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Categories; Did you mean Category? at [6:10]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_religious_org as (\r\n\r\n    select \r\n         Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\r\n)\r\n\r\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_religious_org as (\n\n    select \n         Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\n)\n\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-08-31 13:16:50.101566 (Thread-101): handling poll request
+2022-08-31 13:16:50.101916 (Thread-101): 13:16:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb52670>]}
+2022-08-31 13:16:50.102540 (Thread-101): sending response (<Response 12469 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:03.542173 (Thread-102): handling status request
+2022-08-31 13:17:03.542524 (Thread-102): 13:17:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb52730>]}
+2022-08-31 13:17:03.543029 (Thread-102): sending response (<Response 1719 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:04.023393 (Thread-103): handling run_sql request
+2022-08-31 13:17:04.024450 (Thread-103): 13:17:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb4bfd0>]}
+2022-08-31 13:17:06.370612 (Thread-103): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:06.399227 (MainThread): 13:17:06  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f15e140f-830c-44df-9b15-09cc775ef484', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb3c6541d30>]}
+2022-08-31 13:17:06.399781 (MainThread): 13:17:06  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:17:06.400480 (Thread-1): 13:17:06  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:17:06.400645 (Thread-1): 13:17:06  Began compiling node rpc.my_new_project.request
+2022-08-31 13:17:06.400766 (Thread-1): 13:17:06  Compiling rpc.my_new_project.request
+2022-08-31 13:17:06.402926 (Thread-1): 13:17:06  finished collecting timing info
+2022-08-31 13:17:06.403059 (Thread-1): 13:17:06  Began executing node rpc.my_new_project.request
+2022-08-31 13:17:06.403160 (Thread-1): 13:17:06  Opening a new connection, currently in state init
+2022-08-31 13:17:06.407699 (Thread-1): 13:17:06  On rpc.my_new_project.request: 
+
+with transform_religious_org as (
+
+    select 
+         Category
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-bq-361110.batchdata.ChurchesReligiousOrg
+)
+
+select * from transform_religious_org
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:17:06.718568 (Thread-1): 13:17:06  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: City at [8:10]')
+2022-08-31 13:17:06.739725 (Thread-104): handling poll request
+2022-08-31 13:17:06.740144 (Thread-104): 13:17:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa62fd0>]}
+2022-08-31 13:17:06.741011 (Thread-104): sending response (<Response 4127 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:07.432689 (Thread-1): 13:17:07  finished collecting timing info
+2022-08-31 13:17:07.432896 (Thread-1): Got an exception: Database Error
+  Unrecognized name: City at [8:10]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 194, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 412, in fn
+    return self._query_and_results(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 596, in _query_and_results
+    iterator = query_job.result(timeout=job_execution_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/query.py", line 1303, in result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/base.py", line 679, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: City at [8:10]
+
+(job ID: 3e35553d-2138-46f2-b803-106fff87730d)
+
+             -----Query Job SQL Follows-----              
+
+    |    .    |    .    |    .    |    .    |    .    |
+   1:
+   2:
+   3:with transform_religious_org as (
+   4:
+   5:    select 
+   6:         Category
+   7:        ,Address
+   8:        ,City
+   9:        ,State
+  10:        ,Postcode
+  11:        ,Phone
+  12:        ,Website
+  13:        ,Email
+  14:    from dbt-bq-361110.batchdata.ChurchesReligiousOrg
+  15:)
+  16:
+  17:select * from transform_religious_org
+  18:limit 500
+  19:/* limit added automatically by dbt cloud */
+    |    .    |    .    |    .    |    .    |    .    |
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 384, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 337, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 428, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 242, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 429, in execute
+    query_job, iterator = self.raw_execute(sql, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 420, in raw_execute
+    query_job, iterator = self._retry_and_handle(msg=sql, conn=conn, fn=fn)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 198, in exception_handler
+    self.handle_error(e, message)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 186, in handle_error
+    raise DatabaseException(error_msg)
+dbt.exceptions.DatabaseException: Database Error
+  Unrecognized name: City at [8:10]
+2022-08-31 13:17:07.434792 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: City at [8:10]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_religious_org as (\r\n\r\n    select \r\n         Category\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\r\n)\r\n\r\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_religious_org as (\n\n    select \n         Category\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\n)\n\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 402, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: City at [8:10]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_religious_org as (\r\n\r\n    select \r\n         Category\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\r\n)\r\n\r\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_religious_org as (\n\n    select \n         Category\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.ChurchesReligiousOrg\n)\n\nselect * from transform_religious_org\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-08-31 13:17:08.089329 (Thread-105): handling poll request
+2022-08-31 13:17:08.089722 (Thread-105): 13:17:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa64a90>]}
+2022-08-31 13:17:08.090341 (Thread-105): sending response (<Response 12243 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:32.480507 (Thread-106): 13:17:32  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:17:32.480925 (Thread-106): 13:17:32  Partial parsing: updated file: my_new_project://models/religiousorg.sql
+2022-08-31 13:17:32.486101 (Thread-106): 13:17:32  1699: static parser successfully parsed religiousorg.sql
+2022-08-31 13:17:32.527434 (Thread-106): 13:17:32  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:17:32.532717 (Thread-106): 13:17:32  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9641479af0>]}
+2022-08-31 13:17:33.457031 (Thread-107): handling status request
+2022-08-31 13:17:33.457398 (Thread-107): 13:17:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96413f7280>]}
+2022-08-31 13:17:33.457930 (Thread-107): sending response (<Response 2042 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:33.516229 (Thread-108): handling status request
+2022-08-31 13:17:33.516568 (Thread-108): 13:17:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96413f7730>]}
+2022-08-31 13:17:33.517065 (Thread-108): sending response (<Response 2042 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:36.186473 (Thread-109): handling status request
+2022-08-31 13:17:36.186828 (Thread-109): 13:17:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96413f7910>]}
+2022-08-31 13:17:36.187312 (Thread-109): sending response (<Response 2042 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:36.540872 (Thread-110): handling run_sql request
+2022-08-31 13:17:36.541227 (Thread-110): 13:17:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfeed490>]}
+2022-08-31 13:17:39.045087 (Thread-110): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:39.073170 (MainThread): 13:17:39  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1e25340f-b513-4342-b234-d3a66da67326', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e670acf70>]}
+2022-08-31 13:17:39.073765 (MainThread): 13:17:39  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:17:39.074469 (Thread-1): 13:17:39  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:17:39.074604 (Thread-1): 13:17:39  Began compiling node rpc.my_new_project.request
+2022-08-31 13:17:39.074697 (Thread-1): 13:17:39  Compiling rpc.my_new_project.request
+2022-08-31 13:17:39.076903 (Thread-1): 13:17:39  finished collecting timing info
+2022-08-31 13:17:39.077038 (Thread-1): 13:17:39  Began executing node rpc.my_new_project.request
+2022-08-31 13:17:39.077140 (Thread-1): 13:17:39  Opening a new connection, currently in state init
+2022-08-31 13:17:39.081789 (Thread-1): 13:17:39  On rpc.my_new_project.request: 
+
+with transform_religious_org as (
+
+    select 
+         Category
+        ,Address
+        ,Suburb
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-bq-361110.batchdata.ChurchesReligiousOrg
+)
+
+select * from transform_religious_org
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:17:39.399813 (Thread-111): handling poll request
+2022-08-31 13:17:39.400226 (Thread-111): 13:17:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfec9700>]}
+2022-08-31 13:17:39.401124 (Thread-111): sending response (<Response 3779 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:40.152195 (Thread-1): 13:17:40  finished collecting timing info
+2022-08-31 13:17:40.796690 (Thread-112): handling poll request
+2022-08-31 13:17:40.797034 (Thread-112): 13:17:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9641453ee0>]}
+2022-08-31 13:17:40.799353 (Thread-112): sending response (<Response 65348 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:46.106648 (Thread-113): 13:17:46  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-08-31 13:17:46.106847 (Thread-113): 13:17:46  Partial parsing enabled, no changes found, skipping parsing
+2022-08-31 13:17:46.107250 (Thread-113): 13:17:46  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:17:46.112346 (Thread-113): 13:17:46  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961d9dc0a0>]}
+2022-08-31 13:17:47.091837 (Thread-114): handling status request
+2022-08-31 13:17:47.092245 (Thread-114): 13:17:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa1fd90>]}
+2022-08-31 13:17:47.092755 (Thread-114): sending response (<Response 1723 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:17:47.168393 (Thread-115): handling status request
+2022-08-31 13:17:47.168727 (Thread-115): 13:17:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfb55160>]}
+2022-08-31 13:17:47.169179 (Thread-115): sending response (<Response 1723 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:18:01.687258 (Thread-116): 13:18:01  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-08-31 13:18:01.687575 (Thread-116): 13:18:01  Partial parsing: added file: my_new_project://models/restaurants.sql
+2022-08-31 13:18:01.692377 (Thread-116): 13:18:01  1699: static parser successfully parsed restaurants.sql
+2022-08-31 13:18:01.747124 (Thread-116): 13:18:01  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:18:01.752735 (Thread-116): 13:18:01  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfcb66a0>]}
+2022-08-31 13:18:02.679631 (Thread-117): handling status request
+2022-08-31 13:18:02.680002 (Thread-117): 13:18:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961da9b310>]}
+2022-08-31 13:18:02.680503 (Thread-117): sending response (<Response 2038 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:18:02.766516 (Thread-118): handling status request
+2022-08-31 13:18:02.766868 (Thread-118): 13:18:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f961da9b0a0>]}
+2022-08-31 13:18:02.767337 (Thread-118): sending response (<Response 2038 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:18:24.780402 (Thread-119): 13:18:24  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:18:24.780765 (Thread-119): 13:18:24  Partial parsing: updated file: my_new_project://models/restaurants.sql
+2022-08-31 13:18:24.785298 (Thread-119): 13:18:24  1699: static parser successfully parsed restaurants.sql
+2022-08-31 13:18:24.822148 (Thread-119): 13:18:24  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:18:24.827101 (Thread-119): 13:18:24  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa98fa0>]}
+2022-08-31 13:18:25.840979 (Thread-120): handling status request
+2022-08-31 13:18:25.841336 (Thread-120): 13:18:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9b2cd0>]}
+2022-08-31 13:18:25.841871 (Thread-120): sending response (<Response 2040 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:18:25.889670 (Thread-121): handling status request
+2022-08-31 13:18:25.889949 (Thread-121): 13:18:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9b2b20>]}
+2022-08-31 13:18:25.890381 (Thread-121): sending response (<Response 2040 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:18:31.630510 (Thread-122): handling status request
+2022-08-31 13:18:31.630860 (Thread-122): 13:18:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9b2a30>]}
+2022-08-31 13:18:31.631340 (Thread-122): sending response (<Response 2040 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:18:31.973779 (Thread-123): handling run_sql request
+2022-08-31 13:18:31.974124 (Thread-123): 13:18:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9b2910>]}
+2022-08-31 13:18:34.362136 (Thread-123): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:18:34.388435 (MainThread): 13:18:34  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '22a692bb-44d6-4858-927d-c67ff81b44a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f552b2b7d90>]}
+2022-08-31 13:18:34.388979 (MainThread): 13:18:34  Found 6 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:18:34.389683 (Thread-1): 13:18:34  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:18:34.389825 (Thread-1): 13:18:34  Began compiling node rpc.my_new_project.request
+2022-08-31 13:18:34.389917 (Thread-1): 13:18:34  Compiling rpc.my_new_project.request
+2022-08-31 13:18:34.392017 (Thread-1): 13:18:34  finished collecting timing info
+2022-08-31 13:18:34.392148 (Thread-1): 13:18:34  Began executing node rpc.my_new_project.request
+2022-08-31 13:18:34.392248 (Thread-1): 13:18:34  Opening a new connection, currently in state init
+2022-08-31 13:18:34.396814 (Thread-1): 13:18:34  On rpc.my_new_project.request: 
+
+with transform_restaurants as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Restaurants
+)
+
+select * from transform_restaurants
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:18:34.808690 (Thread-124): handling poll request
+2022-08-31 13:18:34.809140 (Thread-124): 13:18:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9a1910>]}
+2022-08-31 13:18:34.810068 (Thread-124): sending response (<Response 3835 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:18:35.791356 (Thread-1): 13:18:35  finished collecting timing info
+2022-08-31 13:18:36.161526 (Thread-125): handling poll request
+2022-08-31 13:18:36.162386 (Thread-125): 13:18:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfa1fdc0>]}
+2022-08-31 13:18:36.186079 (Thread-125): sending response (<Response 80882 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:00.757535 (Thread-126): 13:19:00  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-08-31 13:19:00.757885 (Thread-126): 13:19:00  Partial parsing: added file: my_new_project://models/schools.sql
+2022-08-31 13:19:00.762819 (Thread-126): 13:19:00  1699: static parser successfully parsed schools.sql
+2022-08-31 13:19:00.801052 (Thread-126): 13:19:00  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:19:00.806607 (Thread-126): 13:19:00  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf92f6a0>]}
+2022-08-31 13:19:01.849100 (Thread-127): handling status request
+2022-08-31 13:19:01.849536 (Thread-127): 13:19:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9b2cd0>]}
+2022-08-31 13:19:01.850059 (Thread-127): sending response (<Response 2030 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:01.937909 (Thread-128): handling status request
+2022-08-31 13:19:01.938239 (Thread-128): 13:19:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf928760>]}
+2022-08-31 13:19:01.938701 (Thread-128): sending response (<Response 2030 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:21.751687 (Thread-129): 13:19:21  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:19:21.752111 (Thread-129): 13:19:21  Partial parsing: updated file: my_new_project://models/schools.sql
+2022-08-31 13:19:21.757254 (Thread-129): 13:19:21  1699: static parser successfully parsed schools.sql
+2022-08-31 13:19:21.796559 (Thread-129): 13:19:21  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:19:21.802806 (Thread-129): 13:19:21  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf82be80>]}
+2022-08-31 13:19:22.685964 (Thread-130): handling status request
+2022-08-31 13:19:22.686326 (Thread-130): 13:19:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9239a0>]}
+2022-08-31 13:19:22.686820 (Thread-130): sending response (<Response 2032 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:22.868753 (Thread-131): handling status request
+2022-08-31 13:19:22.869109 (Thread-131): 13:19:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9237f0>]}
+2022-08-31 13:19:22.869629 (Thread-131): sending response (<Response 2032 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:25.508414 (Thread-132): handling status request
+2022-08-31 13:19:25.508791 (Thread-132): 13:19:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf923700>]}
+2022-08-31 13:19:25.509278 (Thread-132): sending response (<Response 2032 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:25.863734 (Thread-133): handling run_sql request
+2022-08-31 13:19:25.864097 (Thread-133): 13:19:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9235e0>]}
+2022-08-31 13:19:28.241210 (Thread-133): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:28.267967 (MainThread): 13:19:28  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ec5fa880-996c-4560-b679-bfe96e31ce81', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5e8be0a00>]}
+2022-08-31 13:19:28.268543 (MainThread): 13:19:28  Found 7 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:19:28.269250 (Thread-1): 13:19:28  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:19:28.269395 (Thread-1): 13:19:28  Began compiling node rpc.my_new_project.request
+2022-08-31 13:19:28.269528 (Thread-1): 13:19:28  Compiling rpc.my_new_project.request
+2022-08-31 13:19:28.271728 (Thread-1): 13:19:28  finished collecting timing info
+2022-08-31 13:19:28.271868 (Thread-1): 13:19:28  Began executing node rpc.my_new_project.request
+2022-08-31 13:19:28.271973 (Thread-1): 13:19:28  Opening a new connection, currently in state init
+2022-08-31 13:19:28.276594 (Thread-1): 13:19:28  On rpc.my_new_project.request: 
+
+with transform_schools as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Schools
+)
+
+select * from transform_schools
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:19:28.683100 (Thread-134): handling poll request
+2022-08-31 13:19:28.683548 (Thread-134): 13:19:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf9bf0d0>]}
+2022-08-31 13:19:28.684476 (Thread-134): sending response (<Response 3827 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:29.488134 (Thread-1): 13:19:29  finished collecting timing info
+2022-08-31 13:19:30.050564 (Thread-135): handling poll request
+2022-08-31 13:19:30.051430 (Thread-135): 13:19:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfcb7fd0>]}
+2022-08-31 13:19:30.053453 (Thread-135): sending response (<Response 83167 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:36.783723 (Thread-136): 13:19:36  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-08-31 13:19:36.783954 (Thread-136): 13:19:36  Partial parsing enabled, no changes found, skipping parsing
+2022-08-31 13:19:36.784452 (Thread-136): 13:19:36  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:19:36.789673 (Thread-136): 13:19:36  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf7e2e80>]}
+2022-08-31 13:19:37.734546 (Thread-137): handling status request
+2022-08-31 13:19:37.734903 (Thread-137): 13:19:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf974790>]}
+2022-08-31 13:19:37.735397 (Thread-137): sending response (<Response 1723 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:19:37.958464 (Thread-138): handling status request
+2022-08-31 13:19:37.958817 (Thread-138): 13:19:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf974550>]}
+2022-08-31 13:19:37.959277 (Thread-138): sending response (<Response 1723 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:20:24.045729 (Thread-139): 13:20:24  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:20:24.046127 (Thread-139): 13:20:24  Partial parsing: updated file: my_new_project://models/hospitals.sql
+2022-08-31 13:20:24.051195 (Thread-139): 13:20:24  1699: static parser successfully parsed hospitals.sql
+2022-08-31 13:20:24.091791 (Thread-139): 13:20:24  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:20:24.097039 (Thread-139): 13:20:24  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf73ca60>]}
+2022-08-31 13:20:24.995519 (Thread-140): handling status request
+2022-08-31 13:20:24.995878 (Thread-140): 13:20:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf86a550>]}
+2022-08-31 13:20:24.996381 (Thread-140): sending response (<Response 2036 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:20:25.078818 (Thread-141): handling status request
+2022-08-31 13:20:25.079181 (Thread-141): 13:20:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf871d00>]}
+2022-08-31 13:20:25.079682 (Thread-141): sending response (<Response 2036 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:20:45.580867 (Thread-142): 13:20:45  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:20:45.581269 (Thread-142): 13:20:45  Partial parsing: updated file: my_new_project://models/restaurants.sql
+2022-08-31 13:20:45.586447 (Thread-142): 13:20:45  1699: static parser successfully parsed restaurants.sql
+2022-08-31 13:20:45.627645 (Thread-142): 13:20:45  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:20:45.633029 (Thread-142): 13:20:45  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf6f8610>]}
+2022-08-31 13:20:46.534740 (Thread-143): handling status request
+2022-08-31 13:20:46.535099 (Thread-143): 13:20:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf711df0>]}
+2022-08-31 13:20:46.535607 (Thread-143): sending response (<Response 2040 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:20:46.652759 (Thread-144): handling status request
+2022-08-31 13:20:46.653090 (Thread-144): 13:20:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf711c40>]}
+2022-08-31 13:20:46.653589 (Thread-144): sending response (<Response 2040 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:20:55.203601 (Thread-145): 13:20:55  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:20:55.203937 (Thread-145): 13:20:55  Partial parsing: updated file: my_new_project://models/schools.sql
+2022-08-31 13:20:55.208457 (Thread-145): 13:20:55  1699: static parser successfully parsed schools.sql
+2022-08-31 13:20:55.247041 (Thread-145): 13:20:55  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:20:55.251911 (Thread-145): 13:20:55  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf6705e0>]}
+2022-08-31 13:20:56.032981 (Thread-146): handling status request
+2022-08-31 13:20:56.033331 (Thread-146): 13:20:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf879880>]}
+2022-08-31 13:20:56.033853 (Thread-146): sending response (<Response 2032 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:20:56.102139 (Thread-147): handling status request
+2022-08-31 13:20:56.102469 (Thread-147): 13:20:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf660a60>]}
+2022-08-31 13:20:56.102936 (Thread-147): sending response (<Response 2032 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:21:24.492640 (Thread-148): 13:21:24  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-08-31 13:21:24.493102 (Thread-148): 13:21:24  Partial parsing: added file: my_new_project://models/sportingclubs.sql
+2022-08-31 13:21:24.501012 (Thread-148): 13:21:24  1699: static parser successfully parsed sportingclubs.sql
+2022-08-31 13:21:24.540585 (Thread-148): 13:21:24  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:21:24.546947 (Thread-148): 13:21:24  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf54ddc0>]}
+2022-08-31 13:21:25.612363 (Thread-149): handling status request
+2022-08-31 13:21:25.612774 (Thread-149): 13:21:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf660160>]}
+2022-08-31 13:21:25.613289 (Thread-149): sending response (<Response 2042 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:21:25.659279 (Thread-150): handling status request
+2022-08-31 13:21:25.659626 (Thread-150): 13:21:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf6f40a0>]}
+2022-08-31 13:21:25.660096 (Thread-150): sending response (<Response 2042 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:21:49.324233 (Thread-151): 13:21:49  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:21:49.324618 (Thread-151): 13:21:49  Partial parsing: updated file: my_new_project://models/sportingclubs.sql
+2022-08-31 13:21:49.329701 (Thread-151): 13:21:49  1699: static parser successfully parsed sportingclubs.sql
+2022-08-31 13:21:49.512891 (Thread-151): 13:21:49  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:21:49.518078 (Thread-151): 13:21:49  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf560e80>]}
+2022-08-31 13:21:50.231706 (Thread-152): handling status request
+2022-08-31 13:21:50.232067 (Thread-152): 13:21:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf66f7c0>]}
+2022-08-31 13:21:50.240747 (Thread-152): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:21:50.349069 (Thread-153): handling status request
+2022-08-31 13:21:50.349545 (Thread-153): 13:21:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf66f730>]}
+2022-08-31 13:21:50.350065 (Thread-153): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:07.173781 (Thread-154): handling status request
+2022-08-31 13:22:07.174205 (Thread-154): 13:22:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf66f0a0>]}
+2022-08-31 13:22:07.174715 (Thread-154): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:07.592151 (Thread-155): handling run_sql request
+2022-08-31 13:22:07.592520 (Thread-155): 13:22:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf66f880>]}
+2022-08-31 13:22:09.956078 (Thread-155): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:09.982847 (MainThread): 13:22:09  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7298b00b-9c15-4a64-8793-bde5288fc128', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6e4d6be7f0>]}
+2022-08-31 13:22:09.983398 (MainThread): 13:22:09  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:22:09.984082 (Thread-1): 13:22:09  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:22:09.984228 (Thread-1): 13:22:09  Began compiling node rpc.my_new_project.request
+2022-08-31 13:22:09.984340 (Thread-1): 13:22:09  Compiling rpc.my_new_project.request
+2022-08-31 13:22:09.986531 (Thread-1): 13:22:09  finished collecting timing info
+2022-08-31 13:22:09.986665 (Thread-1): 13:22:09  Began executing node rpc.my_new_project.request
+2022-08-31 13:22:09.986766 (Thread-1): 13:22:09  Opening a new connection, currently in state init
+2022-08-31 13:22:09.991333 (Thread-1): 13:22:09  On rpc.my_new_project.request: 
+
+with transform_sportingclubs as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-bq-361110.batchdata.SportingClubs
+)
+
+select * from transform_sportingclubs
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:22:10.346880 (Thread-1): 13:22:10  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: Name at [6:9]')
+2022-08-31 13:22:10.537005 (Thread-156): handling poll request
+2022-08-31 13:22:10.537400 (Thread-156): 13:22:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf603820>]}
+2022-08-31 13:22:10.538284 (Thread-156): sending response (<Response 4146 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:11.612231 (Thread-1): 13:22:11  finished collecting timing info
+2022-08-31 13:22:11.612434 (Thread-1): Got an exception: Database Error
+  Unrecognized name: Name at [6:9]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 194, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 412, in fn
+    return self._query_and_results(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 596, in _query_and_results
+    iterator = query_job.result(timeout=job_execution_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/query.py", line 1303, in result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/base.py", line 679, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: Name at [6:9]
+
+(job ID: 7f0cc344-cd42-4240-9e8c-3054dabd194a)
+
+          -----Query Job SQL Follows-----          
+
+    |    .    |    .    |    .    |    .    |
+   1:
+   2:
+   3:with transform_sportingclubs as (
+   4:
+   5:    select 
+   6:        Name
+   7:        ,Categories
+   8:        ,Address
+   9:        ,City
+  10:        ,State
+  11:        ,Postcode
+  12:        ,Phone
+  13:        ,Website
+  14:        ,Email
+  15:    from dbt-bq-361110.batchdata.SportingClubs
+  16:)
+  17:
+  18:select * from transform_sportingclubs
+  19:limit 500
+  20:/* limit added automatically by dbt cloud */
+    |    .    |    .    |    .    |    .    |
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 384, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 337, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 428, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 242, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 429, in execute
+    query_job, iterator = self.raw_execute(sql, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 420, in raw_execute
+    query_job, iterator = self._retry_and_handle(msg=sql, conn=conn, fn=fn)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 198, in exception_handler
+    self.handle_error(e, message)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 186, in handle_error
+    raise DatabaseException(error_msg)
+dbt.exceptions.DatabaseException: Database Error
+  Unrecognized name: Name at [6:9]
+2022-08-31 13:22:11.614409 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Name at [6:9]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_sportingclubs as (\r\n\r\n    select \r\n        Name\r\n        ,Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.SportingClubs\r\n)\r\n\r\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_sportingclubs as (\n\n    select \n        Name\n        ,Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.SportingClubs\n)\n\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 402, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Name at [6:9]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_sportingclubs as (\r\n\r\n    select \r\n        Name\r\n        ,Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.SportingClubs\r\n)\r\n\r\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_sportingclubs as (\n\n    select \n        Name\n        ,Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.SportingClubs\n)\n\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-08-31 13:22:11.912753 (Thread-157): handling poll request
+2022-08-31 13:22:11.913126 (Thread-157): 13:22:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf6a4790>]}
+2022-08-31 13:22:11.913789 (Thread-157): sending response (<Response 12312 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:33.554496 (Thread-158): 13:22:33  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:22:33.554896 (Thread-158): 13:22:33  Partial parsing: updated file: my_new_project://models/sportingclubs.sql
+2022-08-31 13:22:33.559909 (Thread-158): 13:22:33  1699: static parser successfully parsed sportingclubs.sql
+2022-08-31 13:22:33.607233 (Thread-158): 13:22:33  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:22:33.614854 (Thread-158): 13:22:33  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfc9a220>]}
+2022-08-31 13:22:34.899333 (Thread-159): handling status request
+2022-08-31 13:22:34.899705 (Thread-159): 13:22:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf7e2910>]}
+2022-08-31 13:22:34.900236 (Thread-159): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:34.938053 (Thread-160): handling status request
+2022-08-31 13:22:34.938359 (Thread-160): 13:22:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf7e2640>]}
+2022-08-31 13:22:34.938816 (Thread-160): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:36.230472 (Thread-161): handling status request
+2022-08-31 13:22:36.230819 (Thread-161): 13:22:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf7e24f0>]}
+2022-08-31 13:22:36.231287 (Thread-161): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:36.575795 (Thread-162): handling run_sql request
+2022-08-31 13:22:36.576192 (Thread-162): 13:22:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf674b50>]}
+2022-08-31 13:22:38.901647 (Thread-162): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:38.928284 (MainThread): 13:22:38  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dd01f6e7-3078-42e6-a7ae-ec4441ae2a2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbb30d44820>]}
+2022-08-31 13:22:38.928841 (MainThread): 13:22:38  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:22:38.929562 (Thread-1): 13:22:38  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:22:38.929710 (Thread-1): 13:22:38  Began compiling node rpc.my_new_project.request
+2022-08-31 13:22:38.929820 (Thread-1): 13:22:38  Compiling rpc.my_new_project.request
+2022-08-31 13:22:38.931940 (Thread-1): 13:22:38  finished collecting timing info
+2022-08-31 13:22:38.932075 (Thread-1): 13:22:38  Began executing node rpc.my_new_project.request
+2022-08-31 13:22:38.932177 (Thread-1): 13:22:38  Opening a new connection, currently in state init
+2022-08-31 13:22:38.936738 (Thread-1): 13:22:38  On rpc.my_new_project.request: 
+
+with transform_sportingclubs as (
+
+    select 
+         Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-bq-361110.batchdata.SportingClubs
+)
+
+select * from transform_sportingclubs
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:22:39.261729 (Thread-163): handling poll request
+2022-08-31 13:22:39.262135 (Thread-163): 13:22:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf8c21f0>]}
+2022-08-31 13:22:39.263025 (Thread-163): sending response (<Response 3782 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:39.277283 (Thread-1): 13:22:39  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: Categories; Did you mean Category? at [6:10]')
+2022-08-31 13:22:40.409906 (Thread-1): 13:22:40  finished collecting timing info
+2022-08-31 13:22:40.410105 (Thread-1): Got an exception: Database Error
+  Unrecognized name: Categories; Did you mean Category? at [6:10]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 194, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 412, in fn
+    return self._query_and_results(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 596, in _query_and_results
+    iterator = query_job.result(timeout=job_execution_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/query.py", line 1303, in result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/base.py", line 679, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: Categories; Did you mean Category? at [6:10]
+
+(job ID: 282e9a00-4dbb-480f-84fd-ac7c4b2f563e)
+
+          -----Query Job SQL Follows-----          
+
+    |    .    |    .    |    .    |    .    |
+   1:
+   2:
+   3:with transform_sportingclubs as (
+   4:
+   5:    select 
+   6:         Categories
+   7:        ,Address
+   8:        ,City
+   9:        ,State
+  10:        ,Postcode
+  11:        ,Phone
+  12:        ,Website
+  13:        ,Email
+  14:    from dbt-bq-361110.batchdata.SportingClubs
+  15:)
+  16:
+  17:select * from transform_sportingclubs
+  18:limit 500
+  19:/* limit added automatically by dbt cloud */
+    |    .    |    .    |    .    |    .    |
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 384, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 337, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 428, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 242, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 429, in execute
+    query_job, iterator = self.raw_execute(sql, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 420, in raw_execute
+    query_job, iterator = self._retry_and_handle(msg=sql, conn=conn, fn=fn)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 198, in exception_handler
+    self.handle_error(e, message)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 186, in handle_error
+    raise DatabaseException(error_msg)
+dbt.exceptions.DatabaseException: Database Error
+  Unrecognized name: Categories; Did you mean Category? at [6:10]
+2022-08-31 13:22:40.411952 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Categories; Did you mean Category? at [6:10]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_sportingclubs as (\r\n\r\n    select \r\n         Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.SportingClubs\r\n)\r\n\r\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_sportingclubs as (\n\n    select \n         Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.SportingClubs\n)\n\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 402, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: Categories; Did you mean Category? at [6:10]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_sportingclubs as (\r\n\r\n    select \r\n         Categories\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.SportingClubs\r\n)\r\n\r\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_sportingclubs as (\n\n    select \n         Categories\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.SportingClubs\n)\n\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-08-31 13:22:40.622644 (Thread-164): handling poll request
+2022-08-31 13:22:40.622987 (Thread-164): 13:22:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf73c3d0>]}
+2022-08-31 13:22:40.623608 (Thread-164): sending response (<Response 12400 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:51.855544 (Thread-165): 13:22:51  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:22:51.855956 (Thread-165): 13:22:51  Partial parsing: updated file: my_new_project://models/sportingclubs.sql
+2022-08-31 13:22:51.861301 (Thread-165): 13:22:51  1699: static parser successfully parsed sportingclubs.sql
+2022-08-31 13:22:51.902854 (Thread-165): 13:22:51  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:22:51.908246 (Thread-165): 13:22:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf790f40>]}
+2022-08-31 13:22:52.658649 (Thread-166): handling status request
+2022-08-31 13:22:52.659030 (Thread-166): 13:22:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfc87370>]}
+2022-08-31 13:22:52.659561 (Thread-166): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:52.797311 (Thread-167): handling status request
+2022-08-31 13:22:52.797719 (Thread-167): 13:22:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfc87c10>]}
+2022-08-31 13:22:52.798223 (Thread-167): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:56.283326 (Thread-168): handling status request
+2022-08-31 13:22:56.283676 (Thread-168): 13:22:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfc87fa0>]}
+2022-08-31 13:22:56.284154 (Thread-168): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:56.629639 (Thread-169): handling run_sql request
+2022-08-31 13:22:56.629997 (Thread-169): 13:22:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cfc875b0>]}
+2022-08-31 13:22:58.939679 (Thread-169): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:22:58.966830 (MainThread): 13:22:58  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a0a29164-ef8a-47ad-bb40-dade70fc6e9b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd1649a77f0>]}
+2022-08-31 13:22:58.967364 (MainThread): 13:22:58  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:22:58.968039 (Thread-1): 13:22:58  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:22:58.968185 (Thread-1): 13:22:58  Began compiling node rpc.my_new_project.request
+2022-08-31 13:22:58.968278 (Thread-1): 13:22:58  Compiling rpc.my_new_project.request
+2022-08-31 13:22:58.970499 (Thread-1): 13:22:58  finished collecting timing info
+2022-08-31 13:22:58.970632 (Thread-1): 13:22:58  Began executing node rpc.my_new_project.request
+2022-08-31 13:22:58.970733 (Thread-1): 13:22:58  Opening a new connection, currently in state init
+2022-08-31 13:22:58.975312 (Thread-1): 13:22:58  On rpc.my_new_project.request: 
+
+with transform_sportingclubs as (
+
+    select 
+         Category
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-bq-361110.batchdata.SportingClubs
+)
+
+select * from transform_sportingclubs
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:22:59.342175 (Thread-1): 13:22:59  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: City at [8:10]')
+2022-08-31 13:22:59.391999 (Thread-170): handling poll request
+2022-08-31 13:22:59.392373 (Thread-170): 13:22:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf556820>]}
+2022-08-31 13:22:59.393271 (Thread-170): sending response (<Response 4131 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:23:00.080139 (Thread-1): 13:23:00  finished collecting timing info
+2022-08-31 13:23:00.080334 (Thread-1): Got an exception: Database Error
+  Unrecognized name: City at [8:10]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 194, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 412, in fn
+    return self._query_and_results(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 596, in _query_and_results
+    iterator = query_job.result(timeout=job_execution_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/query.py", line 1303, in result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/base.py", line 679, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: City at [8:10]
+
+(job ID: 257e16ad-67f3-4c54-a9ea-8428631794d2)
+
+          -----Query Job SQL Follows-----          
+
+    |    .    |    .    |    .    |    .    |
+   1:
+   2:
+   3:with transform_sportingclubs as (
+   4:
+   5:    select 
+   6:         Category
+   7:        ,Address
+   8:        ,City
+   9:        ,State
+  10:        ,Postcode
+  11:        ,Phone
+  12:        ,Website
+  13:        ,Email
+  14:    from dbt-bq-361110.batchdata.SportingClubs
+  15:)
+  16:
+  17:select * from transform_sportingclubs
+  18:limit 500
+  19:/* limit added automatically by dbt cloud */
+    |    .    |    .    |    .    |    .    |
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 384, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 337, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 428, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 242, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 429, in execute
+    query_job, iterator = self.raw_execute(sql, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 420, in raw_execute
+    query_job, iterator = self._retry_and_handle(msg=sql, conn=conn, fn=fn)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 198, in exception_handler
+    self.handle_error(e, message)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 186, in handle_error
+    raise DatabaseException(error_msg)
+dbt.exceptions.DatabaseException: Database Error
+  Unrecognized name: City at [8:10]
+2022-08-31 13:23:00.082284 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: City at [8:10]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_sportingclubs as (\r\n\r\n    select \r\n         Category\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.SportingClubs\r\n)\r\n\r\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_sportingclubs as (\n\n    select \n         Category\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.SportingClubs\n)\n\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 402, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: City at [8:10]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nwith transform_sportingclubs as (\r\n\r\n    select \r\n         Category\r\n        ,Address\r\n        ,City\r\n        ,State\r\n        ,Postcode\r\n        ,Phone\r\n        ,Website\r\n        ,Email\r\n    from dbt-bq-361110.batchdata.SportingClubs\r\n)\r\n\r\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */", 'compiled_sql': '\n\nwith transform_sportingclubs as (\n\n    select \n         Category\n        ,Address\n        ,City\n        ,State\n        ,Postcode\n        ,Phone\n        ,Website\n        ,Email\n    from dbt-bq-361110.batchdata.SportingClubs\n)\n\nselect * from transform_sportingclubs\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-08-31 13:23:00.756992 (Thread-171): handling poll request
+2022-08-31 13:23:00.757412 (Thread-171): 13:23:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf7da250>]}
+2022-08-31 13:23:00.758135 (Thread-171): sending response (<Response 12174 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:23:14.465420 (Thread-172): 13:23:14  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-08-31 13:23:14.465863 (Thread-172): 13:23:14  Partial parsing: updated file: my_new_project://models/sportingclubs.sql
+2022-08-31 13:23:14.471173 (Thread-172): 13:23:14  1699: static parser successfully parsed sportingclubs.sql
+2022-08-31 13:23:14.524167 (Thread-172): 13:23:14  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:23:14.529252 (Thread-172): 13:23:14  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf82e790>]}
+2022-08-31 13:23:15.646645 (Thread-173): handling status request
+2022-08-31 13:23:15.647006 (Thread-173): 13:23:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf58ddf0>]}
+2022-08-31 13:23:15.647506 (Thread-173): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:23:15.901881 (Thread-174): handling status request
+2022-08-31 13:23:15.902228 (Thread-174): 13:23:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf58dc70>]}
+2022-08-31 13:23:15.902701 (Thread-174): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:23:19.555382 (Thread-175): handling status request
+2022-08-31 13:23:19.555736 (Thread-175): 13:23:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf58dac0>]}
+2022-08-31 13:23:19.556207 (Thread-175): sending response (<Response 2044 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:23:19.903164 (Thread-176): handling run_sql request
+2022-08-31 13:23:19.903513 (Thread-176): 13:23:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf58da30>]}
+2022-08-31 13:23:22.251508 (Thread-176): sending response (<Response 140 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:23:22.278075 (MainThread): 13:23:22  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '50c6657f-7463-45f4-889d-6edefe81419d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ffdf90820>]}
+2022-08-31 13:23:22.278643 (MainThread): 13:23:22  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-08-31 13:23:22.279342 (Thread-1): 13:23:22  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-08-31 13:23:22.279489 (Thread-1): 13:23:22  Began compiling node rpc.my_new_project.request
+2022-08-31 13:23:22.279595 (Thread-1): 13:23:22  Compiling rpc.my_new_project.request
+2022-08-31 13:23:22.281808 (Thread-1): 13:23:22  finished collecting timing info
+2022-08-31 13:23:22.281943 (Thread-1): 13:23:22  Began executing node rpc.my_new_project.request
+2022-08-31 13:23:22.282047 (Thread-1): 13:23:22  Opening a new connection, currently in state init
+2022-08-31 13:23:22.286602 (Thread-1): 13:23:22  On rpc.my_new_project.request: 
+
+with transform_sportingclubs as (
+
+    select 
+         Category
+        ,Address
+        ,Suburb
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-bq-361110.batchdata.SportingClubs
+)
+
+select * from transform_sportingclubs
+limit 500
+/* limit added automatically by dbt cloud */
+2022-08-31 13:23:22.634962 (Thread-177): handling poll request
+2022-08-31 13:23:22.635387 (Thread-177): 13:23:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf6398b0>]}
+2022-08-31 13:23:22.636344 (Thread-177): sending response (<Response 3782 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:23:23.442970 (Thread-1): 13:23:23  finished collecting timing info
+2022-08-31 13:23:24.005630 (Thread-178): handling poll request
+2022-08-31 13:23:24.006011 (Thread-178): 13:23:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96414798e0>]}
+2022-08-31 13:23:24.008185 (Thread-178): sending response (<Response 66414 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:23:37.349214 (Thread-179): 13:23:37  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-08-31 13:23:37.349420 (Thread-179): 13:23:37  Partial parsing enabled, no changes found, skipping parsing
+2022-08-31 13:23:37.349954 (Thread-179): 13:23:37  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-08-31 13:23:37.355333 (Thread-179): 13:23:37  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf4f1610>]}
+2022-08-31 13:23:38.624874 (Thread-180): handling status request
+2022-08-31 13:23:38.625231 (Thread-180): 13:23:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf547820>]}
+2022-08-31 13:23:38.625758 (Thread-180): sending response (<Response 1723 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:23:38.709213 (Thread-181): handling status request
+2022-08-31 13:23:38.709593 (Thread-181): 13:23:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf5476a0>]}
+2022-08-31 13:23:38.710081 (Thread-181): sending response (<Response 1723 bytes [200 OK]>) to 10.0.17.189
+2022-08-31 13:24:23.071314 (Thread-182): handling status request
+2022-08-31 13:24:23.071690 (Thread-182): 13:24:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'cda1e0eb-5d04-4b92-af95-4b1ce04f98c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f95cf547520>]}
+2022-08-31 13:24:23.072179 (Thread-182): sending response (<Response 1723 bytes [200 OK]>) to 10.0.17.189
