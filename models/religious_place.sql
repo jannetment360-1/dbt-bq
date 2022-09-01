@@ -3,12 +3,12 @@
 with transform_religious_org as (
 
     select 
-         Category
+         Name
+        ,Category
         ,Address
         ,Suburb
         ,State
         ,Postcode
-        ,Phone
         ,Website
         ,Email
         ,Latitude

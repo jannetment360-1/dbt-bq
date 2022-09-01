@@ -3,7 +3,7 @@
 with transform_hospitals as (
 
     select 
-        Name
+         Name
         ,Categories
         ,Address
         ,City

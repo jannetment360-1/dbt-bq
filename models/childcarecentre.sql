@@ -3,15 +3,14 @@
 with transform_child_care_centre as (
 
     select 
-        Name
+         Name
         ,Categories
         ,Address
         ,City
         ,State
         ,Postcode
         ,Phone
-        ,Website
-        ,Email
+        ,Fax
         ,Latitude
         ,Longitude
         ,ST_GeogPoint(Longitude,Latitude) as Location 

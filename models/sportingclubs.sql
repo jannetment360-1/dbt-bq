@@ -3,9 +3,10 @@
 with transform_sportingclubs as (
 
     select 
-         Category
+         Categories
+        ,Name
         ,Address
-        ,Suburb
+        ,City
         ,State
         ,Postcode
         ,Phone

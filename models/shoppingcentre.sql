@@ -3,7 +3,7 @@
 with transform_shopping_centre as (
 
     select 
-        Name
+         Name
         ,Categories
         ,Address
         ,City

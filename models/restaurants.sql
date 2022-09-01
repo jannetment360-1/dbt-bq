@@ -3,7 +3,7 @@
 with transform_restaurants as (
 
     select 
-        Name
+         Name
         ,Categories
         ,Address
         ,City

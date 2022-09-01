@@ -3,7 +3,7 @@
 with transform_schools as (
 
     select 
-        Name
+         Name
         ,Categories
         ,Address
         ,City
