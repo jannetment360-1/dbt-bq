@@ -8,7 +8,7 @@ with transform_sportingclubs as (
         ,Address
         ,City
         ,State
-        ,CAST(Postcode as INT)
+        ,CAST(Postcode as INT) as Postcode
         ,Phone
         ,Website
         ,Email

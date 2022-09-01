@@ -6551,3 +6551,1299 @@ There are 1 unused configuration paths:
 2022-09-01 14:10:42.819231 (Thread-197): handling status request
 2022-09-01 14:10:42.819666 (Thread-197): 14:10:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a943ee1c0>]}
 2022-09-01 14:10:42.820209 (Thread-197): sending response (<Response 2044 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:10:45.308110 (Thread-198): 14:10:45  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-09-01 14:10:45.308356 (Thread-198): 14:10:45  Partial parsing enabled, no changes found, skipping parsing
+2022-09-01 14:10:45.308806 (Thread-198): 14:10:45  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:10:45.314446 (Thread-198): 14:10:45  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a942b3b80>]}
+2022-09-01 14:10:46.134441 (Thread-199): handling status request
+2022-09-01 14:10:46.134859 (Thread-199): 14:10:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a9430da00>]}
+2022-09-01 14:10:46.135374 (Thread-199): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:10:46.219555 (Thread-200): handling status request
+2022-09-01 14:10:46.219991 (Thread-200): 14:10:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a9430d850>]}
+2022-09-01 14:10:46.220532 (Thread-200): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:30.946018 (Thread-201): handling status request
+2022-09-01 14:12:30.947686 (Thread-201): 14:12:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a9430d430>]}
+2022-09-01 14:12:30.948224 (Thread-201): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:31.354832 (Thread-202): handling status request
+2022-09-01 14:12:31.355244 (Thread-202): 14:12:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a9430d3d0>]}
+2022-09-01 14:12:31.355757 (Thread-202): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:31.365182 (Thread-203): handling cli_args request
+2022-09-01 14:12:31.365509 (Thread-203): 14:12:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a9430d190>]}
+2022-09-01 14:12:33.738634 (Thread-203): sending response (<Response 140 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:33.792235 (MainThread): 14:12:33  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-09-01 14:12:33.792726 (MainThread): 14:12:33  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0940dbe280>]}
+2022-09-01 14:12:33.847130 (MainThread): 14:12:33  Parsing macros/adapters.sql
+2022-09-01 14:12:33.871417 (MainThread): 14:12:33  Parsing macros/etc.sql
+2022-09-01 14:12:33.873431 (MainThread): 14:12:33  Parsing macros/catalog.sql
+2022-09-01 14:12:33.879439 (MainThread): 14:12:33  Parsing macros/adapters/apply_grants.sql
+2022-09-01 14:12:33.882041 (MainThread): 14:12:33  Parsing macros/utils/right.sql
+2022-09-01 14:12:33.882734 (MainThread): 14:12:33  Parsing macros/utils/split_part.sql
+2022-09-01 14:12:33.883980 (MainThread): 14:12:33  Parsing macros/utils/safe_cast.sql
+2022-09-01 14:12:33.884475 (MainThread): 14:12:33  Parsing macros/utils/bool_or.sql
+2022-09-01 14:12:33.884895 (MainThread): 14:12:33  Parsing macros/utils/date_trunc.sql
+2022-09-01 14:12:33.885400 (MainThread): 14:12:33  Parsing macros/utils/hash.sql
+2022-09-01 14:12:33.885881 (MainThread): 14:12:33  Parsing macros/utils/datediff.sql
+2022-09-01 14:12:33.887283 (MainThread): 14:12:33  Parsing macros/utils/dateadd.sql
+2022-09-01 14:12:33.887908 (MainThread): 14:12:33  Parsing macros/utils/except.sql
+2022-09-01 14:12:33.888253 (MainThread): 14:12:33  Parsing macros/utils/position.sql
+2022-09-01 14:12:33.888762 (MainThread): 14:12:33  Parsing macros/utils/escape_single_quotes.sql
+2022-09-01 14:12:33.889289 (MainThread): 14:12:33  Parsing macros/utils/listagg.sql
+2022-09-01 14:12:33.890276 (MainThread): 14:12:33  Parsing macros/utils/intersect.sql
+2022-09-01 14:12:33.890637 (MainThread): 14:12:33  Parsing macros/materializations/table.sql
+2022-09-01 14:12:33.895354 (MainThread): 14:12:33  Parsing macros/materializations/seed.sql
+2022-09-01 14:12:33.897820 (MainThread): 14:12:33  Parsing macros/materializations/incremental.sql
+2022-09-01 14:12:33.913403 (MainThread): 14:12:33  Parsing macros/materializations/copy.sql
+2022-09-01 14:12:33.916156 (MainThread): 14:12:33  Parsing macros/materializations/snapshot.sql
+2022-09-01 14:12:33.917758 (MainThread): 14:12:33  Parsing macros/materializations/view.sql
+2022-09-01 14:12:33.920515 (MainThread): 14:12:33  Parsing macros/adapters/metadata.sql
+2022-09-01 14:12:33.927450 (MainThread): 14:12:33  Parsing macros/adapters/columns.sql
+2022-09-01 14:12:33.937017 (MainThread): 14:12:33  Parsing macros/adapters/freshness.sql
+2022-09-01 14:12:33.939943 (MainThread): 14:12:33  Parsing macros/adapters/persist_docs.sql
+2022-09-01 14:12:33.944245 (MainThread): 14:12:33  Parsing macros/adapters/apply_grants.sql
+2022-09-01 14:12:33.958538 (MainThread): 14:12:33  Parsing macros/adapters/relation.sql
+2022-09-01 14:12:33.973338 (MainThread): 14:12:33  Parsing macros/adapters/schema.sql
+2022-09-01 14:12:33.975627 (MainThread): 14:12:33  Parsing macros/adapters/indexes.sql
+2022-09-01 14:12:33.978265 (MainThread): 14:12:33  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-09-01 14:12:33.980729 (MainThread): 14:12:33  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-09-01 14:12:33.982202 (MainThread): 14:12:33  Parsing macros/get_custom_name/get_custom_database.sql
+2022-09-01 14:12:33.983727 (MainThread): 14:12:33  Parsing macros/utils/literal.sql
+2022-09-01 14:12:33.984649 (MainThread): 14:12:33  Parsing macros/utils/data_types.sql
+2022-09-01 14:12:33.990861 (MainThread): 14:12:33  Parsing macros/utils/replace.sql
+2022-09-01 14:12:33.992062 (MainThread): 14:12:33  Parsing macros/utils/right.sql
+2022-09-01 14:12:33.993202 (MainThread): 14:12:33  Parsing macros/utils/split_part.sql
+2022-09-01 14:12:33.995319 (MainThread): 14:12:33  Parsing macros/utils/safe_cast.sql
+2022-09-01 14:12:33.996395 (MainThread): 14:12:33  Parsing macros/utils/cast_bool_to_text.sql
+2022-09-01 14:12:33.997417 (MainThread): 14:12:33  Parsing macros/utils/any_value.sql
+2022-09-01 14:12:33.998381 (MainThread): 14:12:33  Parsing macros/utils/bool_or.sql
+2022-09-01 14:12:33.999468 (MainThread): 14:12:33  Parsing macros/utils/date_trunc.sql
+2022-09-01 14:12:34.000565 (MainThread): 14:12:34  Parsing macros/utils/hash.sql
+2022-09-01 14:12:34.001665 (MainThread): 14:12:34  Parsing macros/utils/datediff.sql
+2022-09-01 14:12:34.002925 (MainThread): 14:12:34  Parsing macros/utils/dateadd.sql
+2022-09-01 14:12:34.004143 (MainThread): 14:12:34  Parsing macros/utils/last_day.sql
+2022-09-01 14:12:34.006016 (MainThread): 14:12:34  Parsing macros/utils/except.sql
+2022-09-01 14:12:34.006883 (MainThread): 14:12:34  Parsing macros/utils/position.sql
+2022-09-01 14:12:34.007945 (MainThread): 14:12:34  Parsing macros/utils/length.sql
+2022-09-01 14:12:34.008858 (MainThread): 14:12:34  Parsing macros/utils/concat.sql
+2022-09-01 14:12:34.138442 (Thread-204): handling poll request
+2022-09-01 14:12:34.138875 (Thread-204): 14:12:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94433040>]}
+2022-09-01 14:12:34.140226 (Thread-204): sending response (<Response 16097 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:34.009827 (MainThread): 14:12:34  Parsing macros/utils/escape_single_quotes.sql
+2022-09-01 14:12:34.011254 (MainThread): 14:12:34  Parsing macros/utils/listagg.sql
+2022-09-01 14:12:34.013439 (MainThread): 14:12:34  Parsing macros/utils/intersect.sql
+2022-09-01 14:12:34.014286 (MainThread): 14:12:34  Parsing macros/etc/datetime.sql
+2022-09-01 14:12:34.022527 (MainThread): 14:12:34  Parsing macros/etc/statement.sql
+2022-09-01 14:12:34.026938 (MainThread): 14:12:34  Parsing macros/generic_test_sql/unique.sql
+2022-09-01 14:12:34.027621 (MainThread): 14:12:34  Parsing macros/generic_test_sql/not_null.sql
+2022-09-01 14:12:34.028395 (MainThread): 14:12:34  Parsing macros/generic_test_sql/accepted_values.sql
+2022-09-01 14:12:34.029707 (MainThread): 14:12:34  Parsing macros/generic_test_sql/relationships.sql
+2022-09-01 14:12:34.030581 (MainThread): 14:12:34  Parsing macros/materializations/configs.sql
+2022-09-01 14:12:34.032965 (MainThread): 14:12:34  Parsing macros/materializations/hooks.sql
+2022-09-01 14:12:34.037077 (MainThread): 14:12:34  Parsing macros/materializations/models/table/table.sql
+2022-09-01 14:12:34.042309 (MainThread): 14:12:34  Parsing macros/materializations/models/table/create_table_as.sql
+2022-09-01 14:12:34.045057 (MainThread): 14:12:34  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-09-01 14:12:34.048321 (MainThread): 14:12:34  Parsing macros/materializations/models/view/helpers.sql
+2022-09-01 14:12:34.049573 (MainThread): 14:12:34  Parsing macros/materializations/models/view/create_view_as.sql
+2022-09-01 14:12:34.051829 (MainThread): 14:12:34  Parsing macros/materializations/models/view/view.sql
+2022-09-01 14:12:34.057239 (MainThread): 14:12:34  Parsing macros/materializations/models/incremental/incremental.sql
+2022-09-01 14:12:34.066170 (MainThread): 14:12:34  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-09-01 14:12:34.080956 (MainThread): 14:12:34  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-09-01 14:12:34.082454 (MainThread): 14:12:34  Parsing macros/materializations/models/incremental/merge.sql
+2022-09-01 14:12:34.098255 (MainThread): 14:12:34  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-09-01 14:12:34.102651 (MainThread): 14:12:34  Parsing macros/materializations/seeds/helpers.sql
+2022-09-01 14:12:34.120315 (MainThread): 14:12:34  Parsing macros/materializations/seeds/seed.sql
+2022-09-01 14:12:34.126942 (MainThread): 14:12:34  Parsing macros/materializations/tests/helpers.sql
+2022-09-01 14:12:34.128668 (MainThread): 14:12:34  Parsing macros/materializations/tests/test.sql
+2022-09-01 14:12:34.133013 (MainThread): 14:12:34  Parsing macros/materializations/tests/where_subquery.sql
+2022-09-01 14:12:34.134859 (MainThread): 14:12:34  Parsing macros/materializations/snapshots/helpers.sql
+2022-09-01 14:12:34.147748 (MainThread): 14:12:34  Parsing macros/materializations/snapshots/strategies.sql
+2022-09-01 14:12:34.163977 (MainThread): 14:12:34  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-09-01 14:12:34.165725 (MainThread): 14:12:34  Parsing macros/materializations/snapshots/snapshot.sql
+2022-09-01 14:12:34.176930 (MainThread): 14:12:34  Parsing tests/generic/builtin.sql
+2022-09-01 14:12:34.423929 (MainThread): 14:12:34  1699: static parser successfully parsed restaurants.sql
+2022-09-01 14:12:34.435605 (MainThread): 14:12:34  1699: static parser successfully parsed childcarecentre.sql
+2022-09-01 14:12:34.437898 (MainThread): 14:12:34  1699: static parser successfully parsed schools.sql
+2022-09-01 14:12:34.439966 (MainThread): 14:12:34  1699: static parser successfully parsed religious_place.sql
+2022-09-01 14:12:34.442128 (MainThread): 14:12:34  1699: static parser successfully parsed hospitals.sql
+2022-09-01 14:12:34.444185 (MainThread): 14:12:34  1699: static parser successfully parsed sportingclubs.sql
+2022-09-01 14:12:34.446653 (MainThread): 14:12:34  1699: static parser successfully parsed shoppingcentre.sql
+2022-09-01 14:12:34.563411 (MainThread): 14:12:34  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:12:34.568524 (MainThread): 14:12:34  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0940c4c8b0>]}
+2022-09-01 14:12:34.592636 (MainThread): 14:12:34  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f09410126a0>]}
+2022-09-01 14:12:34.592989 (MainThread): 14:12:34  Found 7 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-09-01 14:12:34.593099 (MainThread): 14:12:34  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0940dbe250>]}
+2022-09-01 14:12:34.594579 (MainThread): 14:12:34  
+2022-09-01 14:12:34.594914 (MainThread): 14:12:34  Acquiring new bigquery connection "master"
+2022-09-01 14:12:34.596102 (ThreadPoolExecutor-0_0): 14:12:34  Acquiring new bigquery connection "list_dbt-bq-361110"
+2022-09-01 14:12:34.596260 (ThreadPoolExecutor-0_0): 14:12:34  Opening a new connection, currently in state init
+2022-09-01 14:12:34.852228 (ThreadPoolExecutor-0_0): 14:12:34  Acquiring new bigquery connection "create_dbt-bq-361110_liveability"
+2022-09-01 14:12:34.852505 (ThreadPoolExecutor-0_0): 14:12:34  Acquiring new bigquery connection "create_dbt-bq-361110_liveability"
+2022-09-01 14:12:34.852603 (ThreadPoolExecutor-0_0): 14:12:34  BigQuery adapter: Creating schema "dbt-bq-361110.liveability".
+2022-09-01 14:12:34.852693 (ThreadPoolExecutor-0_0): 14:12:34  Opening a new connection, currently in state closed
+2022-09-01 14:12:35.329421 (ThreadPoolExecutor-1_0): 14:12:35  Acquiring new bigquery connection "list_dbt-bq-361110_liveability"
+2022-09-01 14:12:35.329605 (ThreadPoolExecutor-1_0): 14:12:35  Opening a new connection, currently in state closed
+2022-09-01 14:12:35.501435 (MainThread): 14:12:35  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0940c5c3d0>]}
+2022-09-01 14:12:35.501973 (MainThread): 14:12:35  Concurrency: 4 threads (target='default')
+2022-09-01 14:12:35.502094 (MainThread): 14:12:35  
+2022-09-01 14:12:35.504918 (Thread-1): 14:12:35  Began running node model.my_new_project.childcarecentre
+2022-09-01 14:12:35.505207 (Thread-1): 14:12:35  1 of 7 START table model liveability.childcarecentre ........................... [RUN]
+2022-09-01 14:12:35.505469 (Thread-1): 14:12:35  Acquiring new bigquery connection "model.my_new_project.childcarecentre"
+2022-09-01 14:12:35.505572 (Thread-1): 14:12:35  Began compiling node model.my_new_project.childcarecentre
+2022-09-01 14:12:35.505661 (Thread-1): 14:12:35  Compiling model.my_new_project.childcarecentre
+2022-09-01 14:12:35.508304 (Thread-1): 14:12:35  Writing injected SQL for node "model.my_new_project.childcarecentre"
+2022-09-01 14:12:35.508560 (Thread-2): 14:12:35  Began running node model.my_new_project.hospitals
+2022-09-01 14:12:35.508807 (Thread-2): 14:12:35  2 of 7 START table model liveability.hospitals ................................. [RUN]
+2022-09-01 14:12:35.509082 (Thread-2): 14:12:35  Acquiring new bigquery connection "model.my_new_project.hospitals"
+2022-09-01 14:12:35.509190 (Thread-2): 14:12:35  Began compiling node model.my_new_project.hospitals
+2022-09-01 14:12:35.509273 (Thread-2): 14:12:35  Compiling model.my_new_project.hospitals
+2022-09-01 14:12:35.510271 (Thread-3): 14:12:35  Began running node model.my_new_project.religious_place
+2022-09-01 14:12:35.510495 (Thread-3): 14:12:35  3 of 7 START table model liveability.religious_place ........................... [RUN]
+2022-09-01 14:12:35.510774 (Thread-3): 14:12:35  Acquiring new bigquery connection "model.my_new_project.religious_place"
+2022-09-01 14:12:35.510868 (Thread-3): 14:12:35  Began compiling node model.my_new_project.religious_place
+2022-09-01 14:12:35.510950 (Thread-3): 14:12:35  Compiling model.my_new_project.religious_place
+2022-09-01 14:12:35.513279 (Thread-3): 14:12:35  Writing injected SQL for node "model.my_new_project.religious_place"
+2022-09-01 14:12:35.513617 (Thread-4): 14:12:35  Began running node model.my_new_project.restaurants
+2022-09-01 14:12:35.513838 (Thread-4): 14:12:35  4 of 7 START table model liveability.restaurants ............................... [RUN]
+2022-09-01 14:12:35.514098 (Thread-4): 14:12:35  Acquiring new bigquery connection "model.my_new_project.restaurants"
+2022-09-01 14:12:35.514221 (Thread-4): 14:12:35  Began compiling node model.my_new_project.restaurants
+2022-09-01 14:12:35.514303 (Thread-4): 14:12:35  Compiling model.my_new_project.restaurants
+2022-09-01 14:12:35.516507 (Thread-4): 14:12:35  Writing injected SQL for node "model.my_new_project.restaurants"
+2022-09-01 14:12:35.523067 (Thread-2): 14:12:35  Writing injected SQL for node "model.my_new_project.hospitals"
+2022-09-01 14:12:35.533042 (Thread-1): 14:12:35  finished collecting timing info
+2022-09-01 14:12:35.550352 (Thread-205): handling poll request
+2022-09-01 14:12:35.550706 (Thread-205): 14:12:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94386fa0>]}
+2022-09-01 14:12:35.553407 (Thread-205): sending response (<Response 29057 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:35.533217 (Thread-1): 14:12:35  Began executing node model.my_new_project.childcarecentre
+2022-09-01 14:12:35.538211 (Thread-4): 14:12:35  finished collecting timing info
+2022-09-01 14:12:35.538361 (Thread-4): 14:12:35  Began executing node model.my_new_project.restaurants
+2022-09-01 14:12:35.548521 (Thread-3): 14:12:35  finished collecting timing info
+2022-09-01 14:12:35.548688 (Thread-3): 14:12:35  Began executing node model.my_new_project.religious_place
+2022-09-01 14:12:35.553606 (Thread-2): 14:12:35  finished collecting timing info
+2022-09-01 14:12:35.553771 (Thread-2): 14:12:35  Began executing node model.my_new_project.hospitals
+2022-09-01 14:12:35.609343 (Thread-1): 14:12:35  Writing runtime SQL for node "model.my_new_project.childcarecentre"
+2022-09-01 14:12:35.610539 (Thread-2): 14:12:35  Writing runtime SQL for node "model.my_new_project.hospitals"
+2022-09-01 14:12:35.612328 (Thread-3): 14:12:35  Writing runtime SQL for node "model.my_new_project.religious_place"
+2022-09-01 14:12:35.612761 (Thread-4): 14:12:35  Writing runtime SQL for node "model.my_new_project.restaurants"
+2022-09-01 14:12:35.628950 (Thread-4): 14:12:35  Opening a new connection, currently in state init
+2022-09-01 14:12:35.629808 (Thread-2): 14:12:35  Opening a new connection, currently in state init
+2022-09-01 14:12:35.630083 (Thread-1): 14:12:35  Opening a new connection, currently in state closed
+2022-09-01 14:12:35.630369 (Thread-3): 14:12:35  Opening a new connection, currently in state init
+2022-09-01 14:12:35.633831 (Thread-4): 14:12:35  On model.my_new_project.restaurants: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.restaurants"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`restaurants`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_restaurants as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT)
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Restaurants
+)
+
+select * from transform_restaurants
+  );
+  
+2022-09-01 14:12:35.635169 (Thread-3): 14:12:35  On model.my_new_project.religious_place: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.religious_place"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`religious_place`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_religious_org as (
+
+    select 
+         Name
+        ,Category
+        ,Address
+        ,Suburb
+        ,State
+        ,CAST(Postcode as INT)
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Religious_Places
+)
+
+select * from transform_religious_org
+  );
+  
+2022-09-01 14:12:35.638856 (Thread-1): 14:12:35  On model.my_new_project.childcarecentre: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.childcarecentre"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`childcarecentre`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_child_care_centre as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT)
+        ,Phone
+        ,Fax
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.ChildCareCentres
+)
+
+select * from transform_child_care_centre
+  );
+  
+2022-09-01 14:12:35.640006 (Thread-2): 14:12:35  On model.my_new_project.hospitals: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.hospitals"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`hospitals`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_hospitals as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT)
+        ,Phone
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Hospitals
+)
+
+select * from transform_hospitals
+  );
+  
+2022-09-01 14:12:36.239438 (Thread-4): 14:12:36  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE TABLE columns must be named, but column 6 has no name at [8:6]')
+2022-09-01 14:12:36.331589 (Thread-3): 14:12:36  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE TABLE columns must be named, but column 6 has no name at [8:6]')
+2022-09-01 14:12:36.351986 (Thread-2): 14:12:36  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE TABLE columns must be named, but column 6 has no name at [8:6]')
+2022-09-01 14:12:36.544029 (Thread-1): 14:12:36  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE TABLE columns must be named, but column 6 has no name at [8:6]')
+2022-09-01 14:12:36.963353 (Thread-206): handling poll request
+2022-09-01 14:12:36.963770 (Thread-206): 14:12:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ab81f83d0>]}
+2022-09-01 14:12:36.964547 (Thread-206): sending response (<Response 11814 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:37.309066 (Thread-4): 14:12:37  finished collecting timing info
+2022-09-01 14:12:37.309548 (Thread-4): 14:12:37  Database Error in model restaurants (models/restaurants.sql)
+  CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+  compiled SQL at target/run/my_new_project/models/restaurants.sql
+2022-09-01 14:12:37.309759 (Thread-4): 14:12:37  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0938382310>]}
+2022-09-01 14:12:37.310124 (Thread-4): 14:12:37  4 of 7 ERROR creating table model liveability.restaurants ...................... [ERROR in 1.80s]
+2022-09-01 14:12:37.310366 (Thread-4): 14:12:37  Finished running node model.my_new_project.restaurants
+2022-09-01 14:12:37.310520 (Thread-4): 14:12:37  Began running node model.my_new_project.schools
+2022-09-01 14:12:37.310705 (Thread-4): 14:12:37  5 of 7 START table model liveability.schools ................................... [RUN]
+2022-09-01 14:12:37.310987 (Thread-4): 14:12:37  Acquiring new bigquery connection "model.my_new_project.schools"
+2022-09-01 14:12:37.311083 (Thread-4): 14:12:37  Began compiling node model.my_new_project.schools
+2022-09-01 14:12:37.311167 (Thread-4): 14:12:37  Compiling model.my_new_project.schools
+2022-09-01 14:12:37.313876 (Thread-4): 14:12:37  Writing injected SQL for node "model.my_new_project.schools"
+2022-09-01 14:12:37.330496 (Thread-4): 14:12:37  finished collecting timing info
+2022-09-01 14:12:37.330730 (Thread-4): 14:12:37  Began executing node model.my_new_project.schools
+2022-09-01 14:12:37.333290 (Thread-4): 14:12:37  Writing runtime SQL for node "model.my_new_project.schools"
+2022-09-01 14:12:37.347992 (Thread-4): 14:12:37  Opening a new connection, currently in state closed
+2022-09-01 14:12:37.352583 (Thread-4): 14:12:37  On model.my_new_project.schools: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.schools"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`schools`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_schools as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT)
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Schools
+)
+
+select * from transform_schools
+  );
+  
+2022-09-01 14:12:37.409359 (Thread-2): 14:12:37  finished collecting timing info
+2022-09-01 14:12:37.409850 (Thread-2): 14:12:37  Database Error in model hospitals (models/hospitals.sql)
+  CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+  compiled SQL at target/run/my_new_project/models/hospitals.sql
+2022-09-01 14:12:37.410070 (Thread-2): 14:12:37  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0940040c10>]}
+2022-09-01 14:12:37.410667 (Thread-2): 14:12:37  2 of 7 ERROR creating table model liveability.hospitals ........................ [ERROR in 1.90s]
+2022-09-01 14:12:37.410907 (Thread-2): 14:12:37  Finished running node model.my_new_project.hospitals
+2022-09-01 14:12:37.411062 (Thread-2): 14:12:37  Began running node model.my_new_project.shoppingcentre
+2022-09-01 14:12:37.411249 (Thread-2): 14:12:37  6 of 7 START table model liveability.shoppingcentre ............................ [RUN]
+2022-09-01 14:12:37.411522 (Thread-2): 14:12:37  Acquiring new bigquery connection "model.my_new_project.shoppingcentre"
+2022-09-01 14:12:37.411616 (Thread-2): 14:12:37  Began compiling node model.my_new_project.shoppingcentre
+2022-09-01 14:12:37.411703 (Thread-2): 14:12:37  Compiling model.my_new_project.shoppingcentre
+2022-09-01 14:12:37.414445 (Thread-2): 14:12:37  Writing injected SQL for node "model.my_new_project.shoppingcentre"
+2022-09-01 14:12:37.428118 (Thread-2): 14:12:37  finished collecting timing info
+2022-09-01 14:12:37.428334 (Thread-2): 14:12:37  Began executing node model.my_new_project.shoppingcentre
+2022-09-01 14:12:37.430968 (Thread-2): 14:12:37  Writing runtime SQL for node "model.my_new_project.shoppingcentre"
+2022-09-01 14:12:37.444132 (Thread-2): 14:12:37  Opening a new connection, currently in state closed
+2022-09-01 14:12:37.448947 (Thread-2): 14:12:37  On model.my_new_project.shoppingcentre: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.shoppingcentre"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`shoppingcentre`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_shopping_centre as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT)
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.ShoppingCentres
+)
+
+select * from transform_shopping_centre
+  );
+  
+2022-09-01 14:12:38.077006 (Thread-2): 14:12:38  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE TABLE columns must be named, but column 6 has no name at [8:6]')
+2022-09-01 14:12:38.299126 (Thread-4): 14:12:38  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE TABLE columns must be named, but column 6 has no name at [8:6]')
+2022-09-01 14:12:38.326468 (Thread-1): 14:12:38  finished collecting timing info
+2022-09-01 14:12:38.326947 (Thread-1): 14:12:38  Database Error in model childcarecentre (models/childcarecentre.sql)
+  CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+  compiled SQL at target/run/my_new_project/models/childcarecentre.sql
+2022-09-01 14:12:38.327147 (Thread-1): 14:12:38  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f09383ec910>]}
+2022-09-01 14:12:38.327494 (Thread-1): 14:12:38  1 of 7 ERROR creating table model liveability.childcarecentre .................. [ERROR in 2.82s]
+2022-09-01 14:12:38.327708 (Thread-1): 14:12:38  Finished running node model.my_new_project.childcarecentre
+2022-09-01 14:12:38.327860 (Thread-1): 14:12:38  Began running node model.my_new_project.sportingclubs
+2022-09-01 14:12:38.328050 (Thread-1): 14:12:38  7 of 7 START table model liveability.sportingclubs ............................. [RUN]
+2022-09-01 14:12:38.328312 (Thread-1): 14:12:38  Acquiring new bigquery connection "model.my_new_project.sportingclubs"
+2022-09-01 14:12:38.328407 (Thread-1): 14:12:38  Began compiling node model.my_new_project.sportingclubs
+2022-09-01 14:12:38.328493 (Thread-1): 14:12:38  Compiling model.my_new_project.sportingclubs
+2022-09-01 14:12:38.331555 (Thread-1): 14:12:38  Writing injected SQL for node "model.my_new_project.sportingclubs"
+2022-09-01 14:12:38.346386 (Thread-1): 14:12:38  finished collecting timing info
+2022-09-01 14:12:38.346624 (Thread-1): 14:12:38  Began executing node model.my_new_project.sportingclubs
+2022-09-01 14:12:38.349198 (Thread-1): 14:12:38  Writing runtime SQL for node "model.my_new_project.sportingclubs"
+2022-09-01 14:12:38.363533 (Thread-1): 14:12:38  Opening a new connection, currently in state closed
+2022-09-01 14:12:38.368204 (Thread-1): 14:12:38  On model.my_new_project.sportingclubs: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.sportingclubs"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`sportingclubs`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_sportingclubs as (
+
+    select 
+         Categories
+        ,Name
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT)
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.SportingClubs
+    WHERE STATE != '6000'
+)
+
+select * from transform_sportingclubs
+  );
+  
+2022-09-01 14:12:38.370303 (Thread-207): handling poll request
+2022-09-01 14:12:38.370636 (Thread-207): 14:12:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94457250>]}
+2022-09-01 14:12:38.371736 (Thread-207): sending response (<Response 23954 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:38.635453 (Thread-3): 14:12:38  finished collecting timing info
+2022-09-01 14:12:38.635961 (Thread-3): 14:12:38  Database Error in model religious_place (models/religious_place.sql)
+  CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+  compiled SQL at target/run/my_new_project/models/religious_place.sql
+2022-09-01 14:12:38.636166 (Thread-3): 14:12:38  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f093833bc40>]}
+2022-09-01 14:12:38.636510 (Thread-3): 14:12:38  3 of 7 ERROR creating table model liveability.religious_place .................. [ERROR in 3.13s]
+2022-09-01 14:12:38.636715 (Thread-3): 14:12:38  Finished running node model.my_new_project.religious_place
+2022-09-01 14:12:39.095411 (Thread-1): 14:12:39  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('CREATE TABLE columns must be named, but column 6 has no name at [8:6]')
+2022-09-01 14:12:39.610674 (Thread-2): 14:12:39  finished collecting timing info
+2022-09-01 14:12:39.611187 (Thread-2): 14:12:39  Database Error in model shoppingcentre (models/shoppingcentre.sql)
+  CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+  compiled SQL at target/run/my_new_project/models/shoppingcentre.sql
+2022-09-01 14:12:39.611383 (Thread-2): 14:12:39  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f09383b73a0>]}
+2022-09-01 14:12:39.611879 (Thread-2): 14:12:39  6 of 7 ERROR creating table model liveability.shoppingcentre ................... [ERROR in 2.20s]
+2022-09-01 14:12:39.612097 (Thread-2): 14:12:39  Finished running node model.my_new_project.shoppingcentre
+2022-09-01 14:12:39.773608 (Thread-208): handling poll request
+2022-09-01 14:12:39.774051 (Thread-208): 14:12:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a942a3b80>]}
+2022-09-01 14:12:39.774742 (Thread-208): sending response (<Response 5887 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:39.993175 (Thread-4): 14:12:39  finished collecting timing info
+2022-09-01 14:12:39.993636 (Thread-4): 14:12:39  Database Error in model schools (models/schools.sql)
+  CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+  compiled SQL at target/run/my_new_project/models/schools.sql
+2022-09-01 14:12:39.993824 (Thread-4): 14:12:39  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0938326a30>]}
+2022-09-01 14:12:39.994199 (Thread-4): 14:12:39  5 of 7 ERROR creating table model liveability.schools .......................... [ERROR in 2.68s]
+2022-09-01 14:12:39.994425 (Thread-4): 14:12:39  Finished running node model.my_new_project.schools
+2022-09-01 14:12:40.468133 (Thread-1): 14:12:40  finished collecting timing info
+2022-09-01 14:12:40.468613 (Thread-1): 14:12:40  Database Error in model sportingclubs (models/sportingclubs.sql)
+  CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+  compiled SQL at target/run/my_new_project/models/sportingclubs.sql
+2022-09-01 14:12:40.468803 (Thread-1): 14:12:40  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '139f4c77-64f4-4459-abee-a2f3852068b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f093831dfd0>]}
+2022-09-01 14:12:40.469136 (Thread-1): 14:12:40  7 of 7 ERROR creating table model liveability.sportingclubs .................... [ERROR in 2.14s]
+2022-09-01 14:12:40.469334 (Thread-1): 14:12:40  Finished running node model.my_new_project.sportingclubs
+2022-09-01 14:12:40.471100 (MainThread): 14:12:40  Acquiring new bigquery connection "master"
+2022-09-01 14:12:40.471448 (MainThread): 14:12:40  
+2022-09-01 14:12:40.471545 (MainThread): 14:12:40  Finished running 7 table models in 0 hours 0 minutes and 5.88 seconds (5.88s).
+2022-09-01 14:12:40.471625 (MainThread): 14:12:40  Connection 'master' was properly closed.
+2022-09-01 14:12:40.471689 (MainThread): 14:12:40  Connection 'model.my_new_project.sportingclubs' was properly closed.
+2022-09-01 14:12:40.471749 (MainThread): 14:12:40  Connection 'model.my_new_project.shoppingcentre' was properly closed.
+2022-09-01 14:12:40.471806 (MainThread): 14:12:40  Connection 'model.my_new_project.religious_place' was properly closed.
+2022-09-01 14:12:40.471861 (MainThread): 14:12:40  Connection 'model.my_new_project.schools' was properly closed.
+2022-09-01 14:12:40.562125 (MainThread): 14:12:40  
+2022-09-01 14:12:40.562378 (MainThread): 14:12:40  Completed with 7 errors and 0 warnings:
+2022-09-01 14:12:40.562472 (MainThread): 14:12:40  
+2022-09-01 14:12:40.562576 (MainThread): 14:12:40  Database Error in model restaurants (models/restaurants.sql)
+2022-09-01 14:12:40.562651 (MainThread): 14:12:40    CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+2022-09-01 14:12:40.562718 (MainThread): 14:12:40    compiled SQL at target/run/my_new_project/models/restaurants.sql
+2022-09-01 14:12:40.562786 (MainThread): 14:12:40  
+2022-09-01 14:12:40.562860 (MainThread): 14:12:40  Database Error in model hospitals (models/hospitals.sql)
+2022-09-01 14:12:40.562926 (MainThread): 14:12:40    CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+2022-09-01 14:12:40.562988 (MainThread): 14:12:40    compiled SQL at target/run/my_new_project/models/hospitals.sql
+2022-09-01 14:12:40.563054 (MainThread): 14:12:40  
+2022-09-01 14:12:40.563125 (MainThread): 14:12:40  Database Error in model childcarecentre (models/childcarecentre.sql)
+2022-09-01 14:12:40.563190 (MainThread): 14:12:40    CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+2022-09-01 14:12:40.563250 (MainThread): 14:12:40    compiled SQL at target/run/my_new_project/models/childcarecentre.sql
+2022-09-01 14:12:40.563314 (MainThread): 14:12:40  
+2022-09-01 14:12:40.563382 (MainThread): 14:12:40  Database Error in model religious_place (models/religious_place.sql)
+2022-09-01 14:12:40.563444 (MainThread): 14:12:40    CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+2022-09-01 14:12:40.563504 (MainThread): 14:12:40    compiled SQL at target/run/my_new_project/models/religious_place.sql
+2022-09-01 14:12:40.563568 (MainThread): 14:12:40  
+2022-09-01 14:12:40.563636 (MainThread): 14:12:40  Database Error in model shoppingcentre (models/shoppingcentre.sql)
+2022-09-01 14:12:40.563701 (MainThread): 14:12:40    CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+2022-09-01 14:12:40.563762 (MainThread): 14:12:40    compiled SQL at target/run/my_new_project/models/shoppingcentre.sql
+2022-09-01 14:12:40.563824 (MainThread): 14:12:40  
+2022-09-01 14:12:40.563892 (MainThread): 14:12:40  Database Error in model schools (models/schools.sql)
+2022-09-01 14:12:40.563953 (MainThread): 14:12:40    CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+2022-09-01 14:12:40.564011 (MainThread): 14:12:40    compiled SQL at target/run/my_new_project/models/schools.sql
+2022-09-01 14:12:40.564073 (MainThread): 14:12:40  
+2022-09-01 14:12:40.564142 (MainThread): 14:12:40  Database Error in model sportingclubs (models/sportingclubs.sql)
+2022-09-01 14:12:40.564206 (MainThread): 14:12:40    CREATE TABLE columns must be named, but column 6 has no name at [8:6]
+2022-09-01 14:12:40.564266 (MainThread): 14:12:40    compiled SQL at target/run/my_new_project/models/sportingclubs.sql
+2022-09-01 14:12:40.564337 (MainThread): 14:12:40  
+2022-09-01 14:12:40.564411 (MainThread): 14:12:40  Done. PASS=0 WARN=0 ERROR=7 SKIP=0 TOTAL=7
+2022-09-01 14:12:41.184286 (Thread-209): handling poll request
+2022-09-01 14:12:41.184707 (Thread-209): 14:12:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94468a00>]}
+2022-09-01 14:12:41.186795 (Thread-209): sending response (<Response 41690 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:42.111972 (Thread-210): handling status request
+2022-09-01 14:12:42.112381 (Thread-210): 14:12:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94468700>]}
+2022-09-01 14:12:42.112951 (Thread-210): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:12:42.200823 (Thread-211): handling status request
+2022-09-01 14:12:42.201274 (Thread-211): 14:12:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a944688b0>]}
+2022-09-01 14:12:42.201809 (Thread-211): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:13:41.739957 (Thread-212): handling status request
+2022-09-01 14:13:41.740379 (Thread-212): 14:13:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94468a30>]}
+2022-09-01 14:13:41.740893 (Thread-212): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:13:42.141695 (Thread-213): handling run_sql request
+2022-09-01 14:13:42.142218 (Thread-213): 14:13:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a944419d0>]}
+2022-09-01 14:13:44.539177 (Thread-213): sending response (<Response 140 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:13:44.572291 (MainThread): 14:13:44  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bf95c440-8e39-4911-8db1-ee78b79c0cda', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f74a57f6fa0>]}
+2022-09-01 14:13:44.572909 (MainThread): 14:13:44  Found 7 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-09-01 14:13:44.573663 (Thread-1): 14:13:44  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-09-01 14:13:44.573814 (Thread-1): 14:13:44  Began compiling node rpc.my_new_project.request
+2022-09-01 14:13:44.573932 (Thread-1): 14:13:44  Compiling rpc.my_new_project.request
+2022-09-01 14:13:44.576428 (Thread-1): 14:13:44  finished collecting timing info
+2022-09-01 14:13:44.576568 (Thread-1): 14:13:44  Began executing node rpc.my_new_project.request
+2022-09-01 14:13:44.576678 (Thread-1): 14:13:44  Opening a new connection, currently in state init
+2022-09-01 14:13:44.581226 (Thread-1): 14:13:44  On rpc.my_new_project.request: 
+
+with transform_child_care_centre as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT) as Postcode
+        ,Phone
+        ,Fax
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.ChildCareCentres
+)
+
+select * from transform_child_care_centre
+limit 500
+/* limit added automatically by dbt cloud */
+2022-09-01 14:13:44.936689 (Thread-214): handling poll request
+2022-09-01 14:13:44.937206 (Thread-214): 14:13:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a942d5c10>]}
+2022-09-01 14:13:44.938180 (Thread-214): sending response (<Response 3910 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:13:45.966685 (Thread-1): 14:13:45  finished collecting timing info
+2022-09-01 14:13:46.358140 (Thread-215): handling poll request
+2022-09-01 14:13:46.359177 (Thread-215): 14:13:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a942d5a90>]}
+2022-09-01 14:13:46.364313 (Thread-215): sending response (<Response 89884 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:13:51.231277 (Thread-216): handling status request
+2022-09-01 14:13:51.231742 (Thread-216): 14:13:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a944411c0>]}
+2022-09-01 14:13:51.232337 (Thread-216): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:13:51.631913 (Thread-217): handling run_sql request
+2022-09-01 14:13:51.632328 (Thread-217): 14:13:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a944686a0>]}
+2022-09-01 14:13:54.039148 (Thread-217): sending response (<Response 140 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:13:54.067783 (MainThread): 14:13:54  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8b9c37c8-9210-4605-8556-5dd50a94a795', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbcdda55b20>]}
+2022-09-01 14:13:54.068410 (MainThread): 14:13:54  Found 7 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-09-01 14:13:54.069182 (Thread-1): 14:13:54  Acquiring new bigquery connection "rpc.my_new_project.request"
+2022-09-01 14:13:54.069344 (Thread-1): 14:13:54  Began compiling node rpc.my_new_project.request
+2022-09-01 14:13:54.069438 (Thread-1): 14:13:54  Compiling rpc.my_new_project.request
+2022-09-01 14:13:54.072018 (Thread-1): 14:13:54  finished collecting timing info
+2022-09-01 14:13:54.072172 (Thread-1): 14:13:54  Began executing node rpc.my_new_project.request
+2022-09-01 14:13:54.072282 (Thread-1): 14:13:54  Opening a new connection, currently in state init
+2022-09-01 14:13:54.076946 (Thread-1): 14:13:54  On rpc.my_new_project.request: 
+
+with transform_hospitals as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT)
+        ,Phone
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Hospitals
+)
+
+select * from transform_hospitals
+limit 500
+/* limit added automatically by dbt cloud */
+2022-09-01 14:13:54.443577 (Thread-218): handling poll request
+2022-09-01 14:13:54.444064 (Thread-218): 14:13:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94225e80>]}
+2022-09-01 14:13:54.445000 (Thread-218): sending response (<Response 3855 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:13:55.267744 (Thread-1): 14:13:55  finished collecting timing info
+2022-09-01 14:13:55.848755 (Thread-219): handling poll request
+2022-09-01 14:13:55.849192 (Thread-219): 14:13:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a941ad0a0>]}
+2022-09-01 14:13:55.878686 (Thread-219): sending response (<Response 86083 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:06.407113 (Thread-220): 14:14:06  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-09-01 14:14:06.407513 (Thread-220): 14:14:06  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a941ae790>]}
+2022-09-01 14:14:06.459349 (Thread-220): 14:14:06  Parsing macros/adapters.sql
+2022-09-01 14:14:06.482194 (Thread-220): 14:14:06  Parsing macros/etc.sql
+2022-09-01 14:14:06.484111 (Thread-220): 14:14:06  Parsing macros/catalog.sql
+2022-09-01 14:14:06.489717 (Thread-220): 14:14:06  Parsing macros/adapters/apply_grants.sql
+2022-09-01 14:14:06.492398 (Thread-220): 14:14:06  Parsing macros/utils/right.sql
+2022-09-01 14:14:06.493079 (Thread-220): 14:14:06  Parsing macros/utils/split_part.sql
+2022-09-01 14:14:06.494406 (Thread-220): 14:14:06  Parsing macros/utils/safe_cast.sql
+2022-09-01 14:14:06.494953 (Thread-220): 14:14:06  Parsing macros/utils/bool_or.sql
+2022-09-01 14:14:06.495422 (Thread-220): 14:14:06  Parsing macros/utils/date_trunc.sql
+2022-09-01 14:14:06.495979 (Thread-220): 14:14:06  Parsing macros/utils/hash.sql
+2022-09-01 14:14:06.496511 (Thread-220): 14:14:06  Parsing macros/utils/datediff.sql
+2022-09-01 14:14:06.497920 (Thread-220): 14:14:06  Parsing macros/utils/dateadd.sql
+2022-09-01 14:14:06.498624 (Thread-220): 14:14:06  Parsing macros/utils/except.sql
+2022-09-01 14:14:06.499022 (Thread-220): 14:14:06  Parsing macros/utils/position.sql
+2022-09-01 14:14:06.499576 (Thread-220): 14:14:06  Parsing macros/utils/escape_single_quotes.sql
+2022-09-01 14:14:06.500154 (Thread-220): 14:14:06  Parsing macros/utils/listagg.sql
+2022-09-01 14:14:06.501147 (Thread-220): 14:14:06  Parsing macros/utils/intersect.sql
+2022-09-01 14:14:06.501546 (Thread-220): 14:14:06  Parsing macros/materializations/table.sql
+2022-09-01 14:14:06.505870 (Thread-220): 14:14:06  Parsing macros/materializations/seed.sql
+2022-09-01 14:14:06.508324 (Thread-220): 14:14:06  Parsing macros/materializations/incremental.sql
+2022-09-01 14:14:06.523460 (Thread-220): 14:14:06  Parsing macros/materializations/copy.sql
+2022-09-01 14:14:06.526188 (Thread-220): 14:14:06  Parsing macros/materializations/snapshot.sql
+2022-09-01 14:14:06.527877 (Thread-220): 14:14:06  Parsing macros/materializations/view.sql
+2022-09-01 14:14:06.530617 (Thread-220): 14:14:06  Parsing macros/adapters/metadata.sql
+2022-09-01 14:14:06.537400 (Thread-220): 14:14:06  Parsing macros/adapters/columns.sql
+2022-09-01 14:14:06.546815 (Thread-220): 14:14:06  Parsing macros/adapters/freshness.sql
+2022-09-01 14:14:06.549591 (Thread-220): 14:14:06  Parsing macros/adapters/persist_docs.sql
+2022-09-01 14:14:06.553809 (Thread-220): 14:14:06  Parsing macros/adapters/apply_grants.sql
+2022-09-01 14:14:06.566951 (Thread-220): 14:14:06  Parsing macros/adapters/relation.sql
+2022-09-01 14:14:06.580930 (Thread-220): 14:14:06  Parsing macros/adapters/schema.sql
+2022-09-01 14:14:06.583177 (Thread-220): 14:14:06  Parsing macros/adapters/indexes.sql
+2022-09-01 14:14:06.585814 (Thread-220): 14:14:06  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-09-01 14:14:06.588220 (Thread-220): 14:14:06  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-09-01 14:14:06.589652 (Thread-220): 14:14:06  Parsing macros/get_custom_name/get_custom_database.sql
+2022-09-01 14:14:06.591195 (Thread-220): 14:14:06  Parsing macros/utils/literal.sql
+2022-09-01 14:14:06.592128 (Thread-220): 14:14:06  Parsing macros/utils/data_types.sql
+2022-09-01 14:14:06.597862 (Thread-220): 14:14:06  Parsing macros/utils/replace.sql
+2022-09-01 14:14:06.599130 (Thread-220): 14:14:06  Parsing macros/utils/right.sql
+2022-09-01 14:14:06.600208 (Thread-220): 14:14:06  Parsing macros/utils/split_part.sql
+2022-09-01 14:14:06.602214 (Thread-220): 14:14:06  Parsing macros/utils/safe_cast.sql
+2022-09-01 14:14:06.603317 (Thread-220): 14:14:06  Parsing macros/utils/cast_bool_to_text.sql
+2022-09-01 14:14:06.604363 (Thread-220): 14:14:06  Parsing macros/utils/any_value.sql
+2022-09-01 14:14:06.605298 (Thread-220): 14:14:06  Parsing macros/utils/bool_or.sql
+2022-09-01 14:14:06.606438 (Thread-220): 14:14:06  Parsing macros/utils/date_trunc.sql
+2022-09-01 14:14:06.607468 (Thread-220): 14:14:06  Parsing macros/utils/hash.sql
+2022-09-01 14:14:06.608530 (Thread-220): 14:14:06  Parsing macros/utils/datediff.sql
+2022-09-01 14:14:06.609752 (Thread-220): 14:14:06  Parsing macros/utils/dateadd.sql
+2022-09-01 14:14:06.611029 (Thread-220): 14:14:06  Parsing macros/utils/last_day.sql
+2022-09-01 14:14:06.612800 (Thread-220): 14:14:06  Parsing macros/utils/except.sql
+2022-09-01 14:14:06.613623 (Thread-220): 14:14:06  Parsing macros/utils/position.sql
+2022-09-01 14:14:06.614746 (Thread-220): 14:14:06  Parsing macros/utils/length.sql
+2022-09-01 14:14:06.615690 (Thread-220): 14:14:06  Parsing macros/utils/concat.sql
+2022-09-01 14:14:06.616656 (Thread-220): 14:14:06  Parsing macros/utils/escape_single_quotes.sql
+2022-09-01 14:14:06.618322 (Thread-220): 14:14:06  Parsing macros/utils/listagg.sql
+2022-09-01 14:14:06.620521 (Thread-220): 14:14:06  Parsing macros/utils/intersect.sql
+2022-09-01 14:14:06.621347 (Thread-220): 14:14:06  Parsing macros/etc/datetime.sql
+2022-09-01 14:14:06.629324 (Thread-220): 14:14:06  Parsing macros/etc/statement.sql
+2022-09-01 14:14:06.633612 (Thread-220): 14:14:06  Parsing macros/generic_test_sql/unique.sql
+2022-09-01 14:14:06.634384 (Thread-220): 14:14:06  Parsing macros/generic_test_sql/not_null.sql
+2022-09-01 14:14:06.635204 (Thread-220): 14:14:06  Parsing macros/generic_test_sql/accepted_values.sql
+2022-09-01 14:14:06.636527 (Thread-220): 14:14:06  Parsing macros/generic_test_sql/relationships.sql
+2022-09-01 14:14:06.637383 (Thread-220): 14:14:06  Parsing macros/materializations/configs.sql
+2022-09-01 14:14:06.639647 (Thread-220): 14:14:06  Parsing macros/materializations/hooks.sql
+2022-09-01 14:14:06.643536 (Thread-220): 14:14:06  Parsing macros/materializations/models/table/table.sql
+2022-09-01 14:14:06.648783 (Thread-220): 14:14:06  Parsing macros/materializations/models/table/create_table_as.sql
+2022-09-01 14:14:06.651592 (Thread-220): 14:14:06  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-09-01 14:14:06.654781 (Thread-220): 14:14:06  Parsing macros/materializations/models/view/helpers.sql
+2022-09-01 14:14:06.656069 (Thread-220): 14:14:06  Parsing macros/materializations/models/view/create_view_as.sql
+2022-09-01 14:14:06.658301 (Thread-220): 14:14:06  Parsing macros/materializations/models/view/view.sql
+2022-09-01 14:14:06.663575 (Thread-220): 14:14:06  Parsing macros/materializations/models/incremental/incremental.sql
+2022-09-01 14:14:06.672454 (Thread-220): 14:14:06  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-09-01 14:14:06.687470 (Thread-220): 14:14:06  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-09-01 14:14:06.689034 (Thread-220): 14:14:06  Parsing macros/materializations/models/incremental/merge.sql
+2022-09-01 14:14:06.704495 (Thread-220): 14:14:06  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-09-01 14:14:06.708816 (Thread-220): 14:14:06  Parsing macros/materializations/seeds/helpers.sql
+2022-09-01 14:14:06.726086 (Thread-220): 14:14:06  Parsing macros/materializations/seeds/seed.sql
+2022-09-01 14:14:06.732719 (Thread-220): 14:14:06  Parsing macros/materializations/tests/helpers.sql
+2022-09-01 14:14:06.734537 (Thread-220): 14:14:06  Parsing macros/materializations/tests/test.sql
+2022-09-01 14:14:06.738754 (Thread-220): 14:14:06  Parsing macros/materializations/tests/where_subquery.sql
+2022-09-01 14:14:06.740513 (Thread-220): 14:14:06  Parsing macros/materializations/snapshots/helpers.sql
+2022-09-01 14:14:06.752990 (Thread-220): 14:14:06  Parsing macros/materializations/snapshots/strategies.sql
+2022-09-01 14:14:06.769038 (Thread-220): 14:14:06  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-09-01 14:14:06.770767 (Thread-220): 14:14:06  Parsing macros/materializations/snapshots/snapshot.sql
+2022-09-01 14:14:06.782390 (Thread-220): 14:14:06  Parsing tests/generic/builtin.sql
+2022-09-01 14:14:07.019746 (Thread-220): 14:14:07  1699: static parser successfully parsed restaurants.sql
+2022-09-01 14:14:07.022270 (Thread-220): 14:14:07  1699: static parser successfully parsed childcarecentre.sql
+2022-09-01 14:14:07.024446 (Thread-220): 14:14:07  1699: static parser successfully parsed schools.sql
+2022-09-01 14:14:07.026779 (Thread-220): 14:14:07  1699: static parser successfully parsed religious_place.sql
+2022-09-01 14:14:07.029031 (Thread-220): 14:14:07  1699: static parser successfully parsed hospitals.sql
+2022-09-01 14:14:07.031314 (Thread-220): 14:14:07  1699: static parser successfully parsed sportingclubs.sql
+2022-09-01 14:14:07.033338 (Thread-220): 14:14:07  1699: static parser successfully parsed shoppingcentre.sql
+2022-09-01 14:14:07.096488 (Thread-220): 14:14:07  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:14:07.102387 (Thread-220): 14:14:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a9407c5b0>]}
+2022-09-01 14:14:07.246818 (Thread-221): handling status request
+2022-09-01 14:14:07.247236 (Thread-221): 14:14:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94153c40>]}
+2022-09-01 14:14:07.248429 (Thread-221): sending response (<Response 28611 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:07.950558 (Thread-222): handling status request
+2022-09-01 14:14:07.950966 (Thread-222): 14:14:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a940e0580>]}
+2022-09-01 14:14:07.952105 (Thread-222): sending response (<Response 28611 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:12.325721 (Thread-223): 14:14:12  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-01 14:14:12.326219 (Thread-223): 14:14:12  Partial parsing: updated file: my_new_project://models/hospitals.sql
+2022-09-01 14:14:12.331707 (Thread-223): 14:14:12  1699: static parser successfully parsed hospitals.sql
+2022-09-01 14:14:12.542453 (Thread-223): 14:14:12  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:14:12.548037 (Thread-223): 14:14:12  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ab807f8b0>]}
+2022-09-01 14:14:13.165894 (Thread-224): handling status request
+2022-09-01 14:14:13.166351 (Thread-224): 14:14:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94092220>]}
+2022-09-01 14:14:13.166878 (Thread-224): sending response (<Response 2036 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:13.204543 (Thread-225): handling status request
+2022-09-01 14:14:13.204949 (Thread-225): 14:14:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a940923d0>]}
+2022-09-01 14:14:13.205450 (Thread-225): sending response (<Response 2036 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:23.668021 (Thread-226): 14:14:23  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-01 14:14:23.668444 (Thread-226): 14:14:23  Partial parsing: updated file: my_new_project://models/religious_place.sql
+2022-09-01 14:14:23.673425 (Thread-226): 14:14:23  1699: static parser successfully parsed religious_place.sql
+2022-09-01 14:14:23.715575 (Thread-226): 14:14:23  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:14:23.722318 (Thread-226): 14:14:23  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a9445dfa0>]}
+2022-09-01 14:14:24.477817 (Thread-227): handling status request
+2022-09-01 14:14:24.478279 (Thread-227): 14:14:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a77f501c0>]}
+2022-09-01 14:14:24.478807 (Thread-227): sending response (<Response 2048 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:24.536157 (Thread-228): handling status request
+2022-09-01 14:14:24.536568 (Thread-228): 14:14:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a940725e0>]}
+2022-09-01 14:14:24.537075 (Thread-228): sending response (<Response 2048 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:31.077246 (Thread-229): 14:14:31  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-09-01 14:14:31.077641 (Thread-229): 14:14:31  Partial parsing enabled, no changes found, skipping parsing
+2022-09-01 14:14:31.078415 (Thread-229): 14:14:31  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:14:31.083875 (Thread-229): 14:14:31  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a9443cee0>]}
+2022-09-01 14:14:31.904069 (Thread-230): handling status request
+2022-09-01 14:14:31.904480 (Thread-230): 14:14:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a77f5ea30>]}
+2022-09-01 14:14:31.904996 (Thread-230): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:31.942692 (Thread-231): handling status request
+2022-09-01 14:14:31.943096 (Thread-231): 14:14:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a77f5ebb0>]}
+2022-09-01 14:14:31.943582 (Thread-231): sending response (<Response 1723 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:39.017672 (Thread-232): 14:14:39  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-01 14:14:39.018102 (Thread-232): 14:14:39  Partial parsing: updated file: my_new_project://models/restaurants.sql
+2022-09-01 14:14:39.023033 (Thread-232): 14:14:39  1699: static parser successfully parsed restaurants.sql
+2022-09-01 14:14:39.065201 (Thread-232): 14:14:39  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:14:39.070901 (Thread-232): 14:14:39  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ab823a3a0>]}
+2022-09-01 14:14:39.846826 (Thread-233): handling status request
+2022-09-01 14:14:39.847246 (Thread-233): 14:14:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a940ba7f0>]}
+2022-09-01 14:14:39.847771 (Thread-233): sending response (<Response 2040 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:39.865533 (Thread-234): handling status request
+2022-09-01 14:14:39.865964 (Thread-234): 14:14:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a940babe0>]}
+2022-09-01 14:14:39.866560 (Thread-234): sending response (<Response 2040 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:47.677720 (Thread-235): 14:14:47  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-01 14:14:47.678183 (Thread-235): 14:14:47  Partial parsing: updated file: my_new_project://models/schools.sql
+2022-09-01 14:14:47.683883 (Thread-235): 14:14:47  1699: static parser successfully parsed schools.sql
+2022-09-01 14:14:47.725679 (Thread-235): 14:14:47  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:14:47.731490 (Thread-235): 14:14:47  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b28366940>]}
+2022-09-01 14:14:48.526514 (Thread-236): handling status request
+2022-09-01 14:14:48.526932 (Thread-236): 14:14:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94163190>]}
+2022-09-01 14:14:48.527461 (Thread-236): sending response (<Response 2032 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:48.570282 (Thread-237): handling status request
+2022-09-01 14:14:48.576313 (Thread-237): 14:14:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94163550>]}
+2022-09-01 14:14:48.576864 (Thread-237): sending response (<Response 2032 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:56.322083 (Thread-238): 14:14:56  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-01 14:14:56.322553 (Thread-238): 14:14:56  Partial parsing: updated file: my_new_project://models/shoppingcentre.sql
+2022-09-01 14:14:56.327546 (Thread-238): 14:14:56  1699: static parser successfully parsed shoppingcentre.sql
+2022-09-01 14:14:56.374150 (Thread-238): 14:14:56  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:14:56.379803 (Thread-238): 14:14:56  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a945e48b0>]}
+2022-09-01 14:14:57.198543 (Thread-239): handling status request
+2022-09-01 14:14:57.198963 (Thread-239): 14:14:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a9471ad60>]}
+2022-09-01 14:14:57.199489 (Thread-239): sending response (<Response 2046 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:14:57.205995 (Thread-240): handling status request
+2022-09-01 14:14:57.206369 (Thread-240): 14:14:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ab85c41f0>]}
+2022-09-01 14:14:57.206859 (Thread-240): sending response (<Response 2046 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:03.001843 (Thread-241): 14:15:03  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-01 14:15:03.002334 (Thread-241): 14:15:03  Partial parsing: updated file: my_new_project://models/sportingclubs.sql
+2022-09-01 14:15:03.007292 (Thread-241): 14:15:03  1699: static parser successfully parsed sportingclubs.sql
+2022-09-01 14:15:03.055747 (Thread-241): 14:15:03  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:15:03.061428 (Thread-241): 14:15:03  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ab82289d0>]}
+2022-09-01 14:15:03.832821 (Thread-242): handling status request
+2022-09-01 14:15:03.833277 (Thread-242): 14:15:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a944cd790>]}
+2022-09-01 14:15:03.833862 (Thread-242): sending response (<Response 2044 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:03.882239 (Thread-243): handling status request
+2022-09-01 14:15:03.882653 (Thread-243): 14:15:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a944cddc0>]}
+2022-09-01 14:15:03.883156 (Thread-243): sending response (<Response 2044 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:14.626890 (Thread-244): handling status request
+2022-09-01 14:15:14.627309 (Thread-244): 14:15:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a944cdb50>]}
+2022-09-01 14:15:14.627817 (Thread-244): sending response (<Response 2044 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:15.045596 (Thread-245): handling cli_args request
+2022-09-01 14:15:15.046001 (Thread-245): 14:15:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a944cd130>]}
+2022-09-01 14:15:15.107878 (Thread-246): handling status request
+2022-09-01 14:15:15.112741 (Thread-246): 14:15:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b089d5760>]}
+2022-09-01 14:15:15.114280 (Thread-246): sending response (<Response 2044 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:17.507272 (Thread-245): sending response (<Response 140 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:17.558837 (MainThread): 14:15:17  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-09-01 14:15:17.559300 (MainThread): 14:15:17  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6260de190>]}
+2022-09-01 14:15:17.608758 (MainThread): 14:15:17  Parsing macros/adapters.sql
+2022-09-01 14:15:17.633203 (MainThread): 14:15:17  Parsing macros/etc.sql
+2022-09-01 14:15:17.635138 (MainThread): 14:15:17  Parsing macros/catalog.sql
+2022-09-01 14:15:17.641088 (MainThread): 14:15:17  Parsing macros/adapters/apply_grants.sql
+2022-09-01 14:15:17.643754 (MainThread): 14:15:17  Parsing macros/utils/right.sql
+2022-09-01 14:15:17.644397 (MainThread): 14:15:17  Parsing macros/utils/split_part.sql
+2022-09-01 14:15:17.645650 (MainThread): 14:15:17  Parsing macros/utils/safe_cast.sql
+2022-09-01 14:15:17.646173 (MainThread): 14:15:17  Parsing macros/utils/bool_or.sql
+2022-09-01 14:15:17.646631 (MainThread): 14:15:17  Parsing macros/utils/date_trunc.sql
+2022-09-01 14:15:17.647154 (MainThread): 14:15:17  Parsing macros/utils/hash.sql
+2022-09-01 14:15:17.647702 (MainThread): 14:15:17  Parsing macros/utils/datediff.sql
+2022-09-01 14:15:17.649139 (MainThread): 14:15:17  Parsing macros/utils/dateadd.sql
+2022-09-01 14:15:17.649838 (MainThread): 14:15:17  Parsing macros/utils/except.sql
+2022-09-01 14:15:17.650274 (MainThread): 14:15:17  Parsing macros/utils/position.sql
+2022-09-01 14:15:17.650872 (MainThread): 14:15:17  Parsing macros/utils/escape_single_quotes.sql
+2022-09-01 14:15:17.651455 (MainThread): 14:15:17  Parsing macros/utils/listagg.sql
+2022-09-01 14:15:17.652448 (MainThread): 14:15:17  Parsing macros/utils/intersect.sql
+2022-09-01 14:15:17.652834 (MainThread): 14:15:17  Parsing macros/materializations/table.sql
+2022-09-01 14:15:17.657657 (MainThread): 14:15:17  Parsing macros/materializations/seed.sql
+2022-09-01 14:15:17.660183 (MainThread): 14:15:17  Parsing macros/materializations/incremental.sql
+2022-09-01 14:15:17.676202 (MainThread): 14:15:17  Parsing macros/materializations/copy.sql
+2022-09-01 14:15:17.678965 (MainThread): 14:15:17  Parsing macros/materializations/snapshot.sql
+2022-09-01 14:15:17.680721 (MainThread): 14:15:17  Parsing macros/materializations/view.sql
+2022-09-01 14:15:17.683537 (MainThread): 14:15:17  Parsing macros/adapters/metadata.sql
+2022-09-01 14:15:17.690657 (MainThread): 14:15:17  Parsing macros/adapters/columns.sql
+2022-09-01 14:15:17.700803 (MainThread): 14:15:17  Parsing macros/adapters/freshness.sql
+2022-09-01 14:15:17.703662 (MainThread): 14:15:17  Parsing macros/adapters/persist_docs.sql
+2022-09-01 14:15:17.708030 (MainThread): 14:15:17  Parsing macros/adapters/apply_grants.sql
+2022-09-01 14:15:17.722027 (MainThread): 14:15:17  Parsing macros/adapters/relation.sql
+2022-09-01 14:15:17.736704 (MainThread): 14:15:17  Parsing macros/adapters/schema.sql
+2022-09-01 14:15:17.738871 (MainThread): 14:15:17  Parsing macros/adapters/indexes.sql
+2022-09-01 14:15:17.741478 (MainThread): 14:15:17  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-09-01 14:15:17.744185 (MainThread): 14:15:17  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-09-01 14:15:17.745779 (MainThread): 14:15:17  Parsing macros/get_custom_name/get_custom_database.sql
+2022-09-01 14:15:17.747540 (MainThread): 14:15:17  Parsing macros/utils/literal.sql
+2022-09-01 14:15:17.748486 (MainThread): 14:15:17  Parsing macros/utils/data_types.sql
+2022-09-01 14:15:17.754513 (MainThread): 14:15:17  Parsing macros/utils/replace.sql
+2022-09-01 14:15:17.755717 (MainThread): 14:15:17  Parsing macros/utils/right.sql
+2022-09-01 14:15:17.756773 (MainThread): 14:15:17  Parsing macros/utils/split_part.sql
+2022-09-01 14:15:17.758886 (MainThread): 14:15:17  Parsing macros/utils/safe_cast.sql
+2022-09-01 14:15:17.759956 (MainThread): 14:15:17  Parsing macros/utils/cast_bool_to_text.sql
+2022-09-01 14:15:17.760974 (MainThread): 14:15:17  Parsing macros/utils/any_value.sql
+2022-09-01 14:15:17.761876 (MainThread): 14:15:17  Parsing macros/utils/bool_or.sql
+2022-09-01 14:15:17.763092 (MainThread): 14:15:17  Parsing macros/utils/date_trunc.sql
+2022-09-01 14:15:17.764105 (MainThread): 14:15:17  Parsing macros/utils/hash.sql
+2022-09-01 14:15:17.765134 (MainThread): 14:15:17  Parsing macros/utils/datediff.sql
+2022-09-01 14:15:17.766384 (MainThread): 14:15:17  Parsing macros/utils/dateadd.sql
+2022-09-01 14:15:17.767841 (MainThread): 14:15:17  Parsing macros/utils/last_day.sql
+2022-09-01 14:15:17.769846 (MainThread): 14:15:17  Parsing macros/utils/except.sql
+2022-09-01 14:15:17.770781 (MainThread): 14:15:17  Parsing macros/utils/position.sql
+2022-09-01 14:15:17.771863 (MainThread): 14:15:17  Parsing macros/utils/length.sql
+2022-09-01 14:15:17.772887 (MainThread): 14:15:17  Parsing macros/utils/concat.sql
+2022-09-01 14:15:17.773863 (MainThread): 14:15:17  Parsing macros/utils/escape_single_quotes.sql
+2022-09-01 14:15:17.775106 (MainThread): 14:15:17  Parsing macros/utils/listagg.sql
+2022-09-01 14:15:17.777311 (MainThread): 14:15:17  Parsing macros/utils/intersect.sql
+2022-09-01 14:15:17.778254 (MainThread): 14:15:17  Parsing macros/etc/datetime.sql
+2022-09-01 14:15:17.786406 (MainThread): 14:15:17  Parsing macros/etc/statement.sql
+2022-09-01 14:15:17.790869 (MainThread): 14:15:17  Parsing macros/generic_test_sql/unique.sql
+2022-09-01 14:15:17.791623 (MainThread): 14:15:17  Parsing macros/generic_test_sql/not_null.sql
+2022-09-01 14:15:17.792479 (MainThread): 14:15:17  Parsing macros/generic_test_sql/accepted_values.sql
+2022-09-01 14:15:17.942859 (Thread-247): handling poll request
+2022-09-01 14:15:17.943279 (Thread-247): 14:15:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b2841ec40>]}
+2022-09-01 14:15:17.944832 (Thread-247): sending response (<Response 18432 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:17.794090 (MainThread): 14:15:17  Parsing macros/generic_test_sql/relationships.sql
+2022-09-01 14:15:17.795018 (MainThread): 14:15:17  Parsing macros/materializations/configs.sql
+2022-09-01 14:15:17.797250 (MainThread): 14:15:17  Parsing macros/materializations/hooks.sql
+2022-09-01 14:15:17.801342 (MainThread): 14:15:17  Parsing macros/materializations/models/table/table.sql
+2022-09-01 14:15:17.806637 (MainThread): 14:15:17  Parsing macros/materializations/models/table/create_table_as.sql
+2022-09-01 14:15:17.809523 (MainThread): 14:15:17  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-09-01 14:15:17.812685 (MainThread): 14:15:17  Parsing macros/materializations/models/view/helpers.sql
+2022-09-01 14:15:17.814011 (MainThread): 14:15:17  Parsing macros/materializations/models/view/create_view_as.sql
+2022-09-01 14:15:17.816306 (MainThread): 14:15:17  Parsing macros/materializations/models/view/view.sql
+2022-09-01 14:15:17.822081 (MainThread): 14:15:17  Parsing macros/materializations/models/incremental/incremental.sql
+2022-09-01 14:15:17.831882 (MainThread): 14:15:17  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-09-01 14:15:17.848736 (MainThread): 14:15:17  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-09-01 14:15:17.850402 (MainThread): 14:15:17  Parsing macros/materializations/models/incremental/merge.sql
+2022-09-01 14:15:17.867771 (MainThread): 14:15:17  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-09-01 14:15:17.872667 (MainThread): 14:15:17  Parsing macros/materializations/seeds/helpers.sql
+2022-09-01 14:15:17.891022 (MainThread): 14:15:17  Parsing macros/materializations/seeds/seed.sql
+2022-09-01 14:15:17.897559 (MainThread): 14:15:17  Parsing macros/materializations/tests/helpers.sql
+2022-09-01 14:15:17.899461 (MainThread): 14:15:17  Parsing macros/materializations/tests/test.sql
+2022-09-01 14:15:17.903800 (MainThread): 14:15:17  Parsing macros/materializations/tests/where_subquery.sql
+2022-09-01 14:15:17.905559 (MainThread): 14:15:17  Parsing macros/materializations/snapshots/helpers.sql
+2022-09-01 14:15:17.918928 (MainThread): 14:15:17  Parsing macros/materializations/snapshots/strategies.sql
+2022-09-01 14:15:17.936703 (MainThread): 14:15:17  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-09-01 14:15:17.938459 (MainThread): 14:15:17  Parsing macros/materializations/snapshots/snapshot.sql
+2022-09-01 14:15:17.950664 (MainThread): 14:15:17  Parsing tests/generic/builtin.sql
+2022-09-01 14:15:18.201475 (MainThread): 14:15:18  1699: static parser successfully parsed restaurants.sql
+2022-09-01 14:15:18.212838 (MainThread): 14:15:18  1699: static parser successfully parsed childcarecentre.sql
+2022-09-01 14:15:18.215153 (MainThread): 14:15:18  1699: static parser successfully parsed schools.sql
+2022-09-01 14:15:18.217211 (MainThread): 14:15:18  1699: static parser successfully parsed religious_place.sql
+2022-09-01 14:15:18.219411 (MainThread): 14:15:18  1699: static parser successfully parsed hospitals.sql
+2022-09-01 14:15:18.221445 (MainThread): 14:15:18  1699: static parser successfully parsed sportingclubs.sql
+2022-09-01 14:15:18.223800 (MainThread): 14:15:18  1699: static parser successfully parsed shoppingcentre.sql
+2022-09-01 14:15:18.337017 (MainThread): 14:15:18  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-01 14:15:18.342095 (MainThread): 14:15:18  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff626229220>]}
+2022-09-01 14:15:18.370265 (MainThread): 14:15:18  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff626332b20>]}
+2022-09-01 14:15:18.370614 (MainThread): 14:15:18  Found 7 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-09-01 14:15:18.370723 (MainThread): 14:15:18  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff6260de130>]}
+2022-09-01 14:15:18.372156 (MainThread): 14:15:18  
+2022-09-01 14:15:18.372499 (MainThread): 14:15:18  Acquiring new bigquery connection "master"
+2022-09-01 14:15:18.373691 (ThreadPoolExecutor-0_0): 14:15:18  Acquiring new bigquery connection "list_dbt-bq-361110"
+2022-09-01 14:15:18.373834 (ThreadPoolExecutor-0_0): 14:15:18  Opening a new connection, currently in state init
+2022-09-01 14:15:18.612455 (ThreadPoolExecutor-1_0): 14:15:18  Acquiring new bigquery connection "list_dbt-bq-361110_liveability"
+2022-09-01 14:15:18.612631 (ThreadPoolExecutor-1_0): 14:15:18  Opening a new connection, currently in state closed
+2022-09-01 14:15:18.798942 (MainThread): 14:15:18  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff625e97fd0>]}
+2022-09-01 14:15:18.799436 (MainThread): 14:15:18  Concurrency: 4 threads (target='default')
+2022-09-01 14:15:18.799548 (MainThread): 14:15:18  
+2022-09-01 14:15:18.802244 (Thread-1): 14:15:18  Began running node model.my_new_project.childcarecentre
+2022-09-01 14:15:18.802544 (Thread-1): 14:15:18  1 of 7 START table model liveability.childcarecentre ........................... [RUN]
+2022-09-01 14:15:18.802814 (Thread-1): 14:15:18  Acquiring new bigquery connection "model.my_new_project.childcarecentre"
+2022-09-01 14:15:18.802915 (Thread-1): 14:15:18  Began compiling node model.my_new_project.childcarecentre
+2022-09-01 14:15:18.803002 (Thread-1): 14:15:18  Compiling model.my_new_project.childcarecentre
+2022-09-01 14:15:18.805633 (Thread-1): 14:15:18  Writing injected SQL for node "model.my_new_project.childcarecentre"
+2022-09-01 14:15:18.805897 (Thread-2): 14:15:18  Began running node model.my_new_project.hospitals
+2022-09-01 14:15:18.806151 (Thread-2): 14:15:18  2 of 7 START table model liveability.hospitals ................................. [RUN]
+2022-09-01 14:15:18.806465 (Thread-2): 14:15:18  Acquiring new bigquery connection "model.my_new_project.hospitals"
+2022-09-01 14:15:18.806559 (Thread-2): 14:15:18  Began compiling node model.my_new_project.hospitals
+2022-09-01 14:15:18.806643 (Thread-2): 14:15:18  Compiling model.my_new_project.hospitals
+2022-09-01 14:15:18.808895 (Thread-3): 14:15:18  Began running node model.my_new_project.religious_place
+2022-09-01 14:15:18.809120 (Thread-3): 14:15:18  3 of 7 START table model liveability.religious_place ........................... [RUN]
+2022-09-01 14:15:18.809397 (Thread-3): 14:15:18  Acquiring new bigquery connection "model.my_new_project.religious_place"
+2022-09-01 14:15:18.809488 (Thread-3): 14:15:18  Began compiling node model.my_new_project.religious_place
+2022-09-01 14:15:18.809568 (Thread-3): 14:15:18  Compiling model.my_new_project.religious_place
+2022-09-01 14:15:18.812176 (Thread-3): 14:15:18  Writing injected SQL for node "model.my_new_project.religious_place"
+2022-09-01 14:15:18.812590 (Thread-4): 14:15:18  Began running node model.my_new_project.restaurants
+2022-09-01 14:15:18.812812 (Thread-4): 14:15:18  4 of 7 START table model liveability.restaurants ............................... [RUN]
+2022-09-01 14:15:18.813089 (Thread-4): 14:15:18  Acquiring new bigquery connection "model.my_new_project.restaurants"
+2022-09-01 14:15:18.813196 (Thread-4): 14:15:18  Began compiling node model.my_new_project.restaurants
+2022-09-01 14:15:18.813305 (Thread-4): 14:15:18  Compiling model.my_new_project.restaurants
+2022-09-01 14:15:18.815593 (Thread-4): 14:15:18  Writing injected SQL for node "model.my_new_project.restaurants"
+2022-09-01 14:15:18.819945 (Thread-2): 14:15:18  Writing injected SQL for node "model.my_new_project.hospitals"
+2022-09-01 14:15:18.822882 (Thread-1): 14:15:18  finished collecting timing info
+2022-09-01 14:15:18.823041 (Thread-1): 14:15:18  Began executing node model.my_new_project.childcarecentre
+2022-09-01 14:15:18.849446 (Thread-2): 14:15:18  finished collecting timing info
+2022-09-01 14:15:18.849664 (Thread-2): 14:15:18  Began executing node model.my_new_project.hospitals
+2022-09-01 14:15:18.860308 (Thread-4): 14:15:18  finished collecting timing info
+2022-09-01 14:15:18.860511 (Thread-4): 14:15:18  Began executing node model.my_new_project.restaurants
+2022-09-01 14:15:18.867830 (Thread-1): 14:15:18  Writing runtime SQL for node "model.my_new_project.childcarecentre"
+2022-09-01 14:15:18.868602 (Thread-2): 14:15:18  Writing runtime SQL for node "model.my_new_project.hospitals"
+2022-09-01 14:15:18.868827 (Thread-3): 14:15:18  finished collecting timing info
+2022-09-01 14:15:18.868978 (Thread-3): 14:15:18  Began executing node model.my_new_project.religious_place
+2022-09-01 14:15:18.871421 (Thread-3): 14:15:18  Writing runtime SQL for node "model.my_new_project.religious_place"
+2022-09-01 14:15:18.873535 (Thread-4): 14:15:18  Writing runtime SQL for node "model.my_new_project.restaurants"
+2022-09-01 14:15:18.884260 (Thread-1): 14:15:18  Opening a new connection, currently in state closed
+2022-09-01 14:15:18.885689 (Thread-2): 14:15:18  Opening a new connection, currently in state init
+2022-09-01 14:15:18.886810 (Thread-3): 14:15:18  Opening a new connection, currently in state init
+2022-09-01 14:15:18.887215 (Thread-4): 14:15:18  Opening a new connection, currently in state init
+2022-09-01 14:15:18.888862 (Thread-1): 14:15:18  On model.my_new_project.childcarecentre: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.childcarecentre"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`childcarecentre`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_child_care_centre as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT) as Postcode
+        ,Phone
+        ,Fax
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.ChildCareCentres
+)
+
+select * from transform_child_care_centre
+  );
+  
+2022-09-01 14:15:18.891729 (Thread-3): 14:15:18  On model.my_new_project.religious_place: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.religious_place"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`religious_place`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_religious_org as (
+
+    select 
+         Name
+        ,Category
+        ,Address
+        ,Suburb
+        ,State
+        ,CAST(Postcode as INT) as Postcode
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Religious_Places
+)
+
+select * from transform_religious_org
+  );
+  
+2022-09-01 14:15:18.893497 (Thread-2): 14:15:18  On model.my_new_project.hospitals: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.hospitals"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`hospitals`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_hospitals as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT) as Postcode
+        ,Phone
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Hospitals
+)
+
+select * from transform_hospitals
+  );
+  
+2022-09-01 14:15:18.895232 (Thread-4): 14:15:18  On model.my_new_project.restaurants: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.restaurants"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`restaurants`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_restaurants as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT) as Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Restaurants
+)
+
+select * from transform_restaurants
+  );
+  
+2022-09-01 14:15:19.348209 (Thread-248): handling poll request
+2022-09-01 14:15:19.348609 (Thread-248): 14:15:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ab8093910>]}
+2022-09-01 14:15:19.377386 (Thread-248): sending response (<Response 35233 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:20.793305 (Thread-249): handling poll request
+2022-09-01 14:15:20.793726 (Thread-249): 14:15:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ab8093580>]}
+2022-09-01 14:15:20.794288 (Thread-249): sending response (<Response 288 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:21.188641 (Thread-2): 14:15:21  finished collecting timing info
+2022-09-01 14:15:21.189110 (Thread-2): 14:15:21  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff625f46fd0>]}
+2022-09-01 14:15:21.189457 (Thread-2): 14:15:21  2 of 7 OK created table model liveability.hospitals ............................ [CREATE TABLE (2.0k rows, 218.9 KB processed) in 2.38s]
+2022-09-01 14:15:21.189668 (Thread-2): 14:15:21  Finished running node model.my_new_project.hospitals
+2022-09-01 14:15:21.189809 (Thread-2): 14:15:21  Began running node model.my_new_project.schools
+2022-09-01 14:15:21.189983 (Thread-2): 14:15:21  5 of 7 START table model liveability.schools ................................... [RUN]
+2022-09-01 14:15:21.190263 (Thread-2): 14:15:21  Acquiring new bigquery connection "model.my_new_project.schools"
+2022-09-01 14:15:21.190358 (Thread-2): 14:15:21  Began compiling node model.my_new_project.schools
+2022-09-01 14:15:21.190440 (Thread-2): 14:15:21  Compiling model.my_new_project.schools
+2022-09-01 14:15:21.195794 (Thread-2): 14:15:21  Writing injected SQL for node "model.my_new_project.schools"
+2022-09-01 14:15:21.211334 (Thread-2): 14:15:21  finished collecting timing info
+2022-09-01 14:15:21.211556 (Thread-2): 14:15:21  Began executing node model.my_new_project.schools
+2022-09-01 14:15:21.214373 (Thread-2): 14:15:21  Writing runtime SQL for node "model.my_new_project.schools"
+2022-09-01 14:15:21.228101 (Thread-2): 14:15:21  Opening a new connection, currently in state closed
+2022-09-01 14:15:21.232676 (Thread-2): 14:15:21  On model.my_new_project.schools: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.schools"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`schools`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_schools as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT) as Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.Schools
+)
+
+select * from transform_schools
+  );
+  
+2022-09-01 14:15:21.260101 (Thread-3): 14:15:21  finished collecting timing info
+2022-09-01 14:15:21.260567 (Thread-3): 14:15:21  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fc51df10>]}
+2022-09-01 14:15:21.260914 (Thread-3): 14:15:21  3 of 7 OK created table model liveability.religious_place ...................... [CREATE TABLE (1.0k rows, 119.2 KB processed) in 2.45s]
+2022-09-01 14:15:21.261128 (Thread-3): 14:15:21  Finished running node model.my_new_project.religious_place
+2022-09-01 14:15:21.261270 (Thread-3): 14:15:21  Began running node model.my_new_project.shoppingcentre
+2022-09-01 14:15:21.261441 (Thread-3): 14:15:21  6 of 7 START table model liveability.shoppingcentre ............................ [RUN]
+2022-09-01 14:15:21.261675 (Thread-3): 14:15:21  Acquiring new bigquery connection "model.my_new_project.shoppingcentre"
+2022-09-01 14:15:21.261765 (Thread-3): 14:15:21  Began compiling node model.my_new_project.shoppingcentre
+2022-09-01 14:15:21.261846 (Thread-3): 14:15:21  Compiling model.my_new_project.shoppingcentre
+2022-09-01 14:15:21.264522 (Thread-3): 14:15:21  Writing injected SQL for node "model.my_new_project.shoppingcentre"
+2022-09-01 14:15:21.279055 (Thread-3): 14:15:21  finished collecting timing info
+2022-09-01 14:15:21.279290 (Thread-3): 14:15:21  Began executing node model.my_new_project.shoppingcentre
+2022-09-01 14:15:21.282117 (Thread-3): 14:15:21  Writing runtime SQL for node "model.my_new_project.shoppingcentre"
+2022-09-01 14:15:21.297309 (Thread-3): 14:15:21  Opening a new connection, currently in state closed
+2022-09-01 14:15:21.302105 (Thread-3): 14:15:21  On model.my_new_project.shoppingcentre: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.shoppingcentre"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`shoppingcentre`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_shopping_centre as (
+
+    select 
+         Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT) as Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.ShoppingCentres
+)
+
+select * from transform_shopping_centre
+  );
+  
+2022-09-01 14:15:21.500723 (Thread-1): 14:15:21  finished collecting timing info
+2022-09-01 14:15:21.501245 (Thread-1): 14:15:21  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5ff596e20>]}
+2022-09-01 14:15:21.501785 (Thread-1): 14:15:21  1 of 7 OK created table model liveability.childcarecentre ...................... [CREATE TABLE (10.3k rows, 1.2 MB processed) in 2.70s]
+2022-09-01 14:15:21.502007 (Thread-1): 14:15:21  Finished running node model.my_new_project.childcarecentre
+2022-09-01 14:15:21.502194 (Thread-1): 14:15:21  Began running node model.my_new_project.sportingclubs
+2022-09-01 14:15:21.502415 (Thread-1): 14:15:21  7 of 7 START table model liveability.sportingclubs ............................. [RUN]
+2022-09-01 14:15:21.502674 (Thread-1): 14:15:21  Acquiring new bigquery connection "model.my_new_project.sportingclubs"
+2022-09-01 14:15:21.502766 (Thread-1): 14:15:21  Began compiling node model.my_new_project.sportingclubs
+2022-09-01 14:15:21.502846 (Thread-1): 14:15:21  Compiling model.my_new_project.sportingclubs
+2022-09-01 14:15:21.505623 (Thread-1): 14:15:21  Writing injected SQL for node "model.my_new_project.sportingclubs"
+2022-09-01 14:15:21.520365 (Thread-1): 14:15:21  finished collecting timing info
+2022-09-01 14:15:21.520587 (Thread-1): 14:15:21  Began executing node model.my_new_project.sportingclubs
+2022-09-01 14:15:21.523371 (Thread-1): 14:15:21  Writing runtime SQL for node "model.my_new_project.sportingclubs"
+2022-09-01 14:15:21.537907 (Thread-1): 14:15:21  Opening a new connection, currently in state closed
+2022-09-01 14:15:21.542506 (Thread-1): 14:15:21  On model.my_new_project.sportingclubs: /* {"app": "dbt", "dbt_version": "1.2.1", "profile_name": "user", "target_name": "default", "node_id": "model.my_new_project.sportingclubs"} */
+
+
+  create or replace table `dbt-bq-361110`.`liveability`.`sportingclubs`
+  
+  
+  OPTIONS()
+  as (
+    
+
+with transform_sportingclubs as (
+
+    select 
+         Categories
+        ,Name
+        ,Address
+        ,City
+        ,State
+        ,CAST(Postcode as INT) as Postcode
+        ,Phone
+        ,Website
+        ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
+    from dbt-bq-361110.batchdata.SportingClubs
+    WHERE STATE != '6000'
+)
+
+select * from transform_sportingclubs
+  );
+  
+2022-09-01 14:15:22.199620 (Thread-250): handling poll request
+2022-09-01 14:15:22.200019 (Thread-250): 14:15:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94722460>]}
+2022-09-01 14:15:22.201022 (Thread-250): sending response (<Response 21084 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:22.225323 (Thread-4): 14:15:22  finished collecting timing info
+2022-09-01 14:15:22.225797 (Thread-4): 14:15:22  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5ff589b80>]}
+2022-09-01 14:15:22.226200 (Thread-4): 14:15:22  4 of 7 OK created table model liveability.restaurants .......................... [CREATE TABLE (24.8k rows, 3.4 MB processed) in 3.41s]
+2022-09-01 14:15:22.226881 (Thread-4): 14:15:22  Finished running node model.my_new_project.restaurants
+2022-09-01 14:15:23.605138 (Thread-251): handling poll request
+2022-09-01 14:15:23.605529 (Thread-251): 14:15:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a94722850>]}
+2022-09-01 14:15:23.606076 (Thread-251): sending response (<Response 2145 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:23.686756 (Thread-3): 14:15:23  finished collecting timing info
+2022-09-01 14:15:23.687231 (Thread-3): 14:15:23  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fc46c280>]}
+2022-09-01 14:15:23.687588 (Thread-3): 14:15:23  6 of 7 OK created table model liveability.shoppingcentre ....................... [CREATE TABLE (2.7k rows, 399.3 KB processed) in 2.43s]
+2022-09-01 14:15:23.687804 (Thread-3): 14:15:23  Finished running node model.my_new_project.shoppingcentre
+2022-09-01 14:15:24.101669 (Thread-1): 14:15:24  finished collecting timing info
+2022-09-01 14:15:24.102189 (Thread-1): 14:15:24  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fc46c460>]}
+2022-09-01 14:15:24.102566 (Thread-1): 14:15:24  7 of 7 OK created table model liveability.sportingclubs ........................ [CREATE TABLE (10.5k rows, 1.4 MB processed) in 2.60s]
+2022-09-01 14:15:24.102776 (Thread-1): 14:15:24  Finished running node model.my_new_project.sportingclubs
+2022-09-01 14:15:24.214274 (Thread-2): 14:15:24  finished collecting timing info
+2022-09-01 14:15:24.214752 (Thread-2): 14:15:24  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '82b681b6-3606-4034-898d-767e98853429', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fc523100>]}
+2022-09-01 14:15:24.215258 (Thread-2): 14:15:24  5 of 7 OK created table model liveability.schools .............................. [CREATE TABLE (19.4k rows, 2.5 MB processed) in 3.02s]
+2022-09-01 14:15:24.215523 (Thread-2): 14:15:24  Finished running node model.my_new_project.schools
+2022-09-01 14:15:24.217091 (MainThread): 14:15:24  Acquiring new bigquery connection "master"
+2022-09-01 14:15:24.217440 (MainThread): 14:15:24  
+2022-09-01 14:15:24.217537 (MainThread): 14:15:24  Finished running 7 table models in 0 hours 0 minutes and 5.85 seconds (5.85s).
+2022-09-01 14:15:24.217618 (MainThread): 14:15:24  Connection 'master' was properly closed.
+2022-09-01 14:15:24.217682 (MainThread): 14:15:24  Connection 'model.my_new_project.sportingclubs' was properly closed.
+2022-09-01 14:15:24.217741 (MainThread): 14:15:24  Connection 'model.my_new_project.schools' was properly closed.
+2022-09-01 14:15:24.217799 (MainThread): 14:15:24  Connection 'model.my_new_project.shoppingcentre' was properly closed.
+2022-09-01 14:15:24.217855 (MainThread): 14:15:24  Connection 'model.my_new_project.restaurants' was properly closed.
+2022-09-01 14:15:24.291446 (MainThread): 14:15:24  
+2022-09-01 14:15:24.291666 (MainThread): 14:15:24  Completed successfully
+2022-09-01 14:15:24.291769 (MainThread): 14:15:24  
+2022-09-01 14:15:24.291854 (MainThread): 14:15:24  Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7
+2022-09-01 14:15:25.010330 (Thread-252): handling poll request
+2022-09-01 14:15:25.010761 (Thread-252): 14:15:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1a947781f0>]}
+2022-09-01 14:15:25.012610 (Thread-252): sending response (<Response 31662 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:25.977460 (Thread-253): handling status request
+2022-09-01 14:15:25.977885 (Thread-253): 14:15:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b089d5b50>]}
+2022-09-01 14:15:25.978492 (Thread-253): sending response (<Response 2044 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:15:25.989936 (Thread-254): handling status request
+2022-09-01 14:15:25.990385 (Thread-254): 14:15:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ab87049d0>]}
+2022-09-01 14:15:25.990902 (Thread-254): sending response (<Response 2044 bytes [200 OK]>) to 10.0.34.2
+2022-09-01 14:16:04.339281 (Thread-255): handling status request
+2022-09-01 14:16:04.339701 (Thread-255): 14:16:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6474f969-0088-46b5-b1f1-cf4ea1bb7c73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1b2825bd90>]}
+2022-09-01 14:16:04.340216 (Thread-255): sending response (<Response 2044 bytes [200 OK]>) to 10.0.34.2
