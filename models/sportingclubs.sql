@@ -12,6 +12,9 @@ with transform_sportingclubs as (
         ,Phone
         ,Website
         ,Email
+        ,Latitude
+        ,Longitude
+        ,ST_GeogPoint(Longitude,Latitude) as Location 
     from dbt-bq-361110.batchdata.SportingClubs
 )
 
