@@ -8,7 +8,7 @@ with transform_shopping_centre as (
         ,Address
         ,City
         ,State
-        ,Postcode
+        ,CAST(Postcode as INT)
         ,Phone
         ,Website
         ,Email

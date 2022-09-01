@@ -8,7 +8,7 @@ with transform_religious_org as (
         ,Address
         ,Suburb
         ,State
-        ,Postcode
+        ,CAST(Postcode as INT)
         ,Website
         ,Email
         ,Latitude

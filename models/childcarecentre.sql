@@ -8,7 +8,7 @@ with transform_child_care_centre as (
         ,Address
         ,City
         ,State
-        ,Postcode
+        ,CAST(Postcode as INT)
         ,Phone
         ,Fax
         ,Latitude

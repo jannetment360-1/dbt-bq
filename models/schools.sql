@@ -8,7 +8,7 @@ with transform_schools as (
         ,Address
         ,City
         ,State
-        ,Postcode
+        ,CAST(Postcode as INT)
         ,Phone
         ,Website
         ,Email

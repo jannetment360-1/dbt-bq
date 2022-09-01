@@ -8,7 +8,7 @@ with transform_hospitals as (
         ,Address
         ,City
         ,State
-        ,Postcode
+        ,CAST(Postcode as INT)
         ,Phone
         ,Latitude
         ,Longitude
