@@ -8879,3 +8879,32 @@ There are 1 unused configuration paths:
 2022-09-03 05:02:12.908505 (Thread-109): handling status request
 2022-09-03 05:02:12.908911 (Thread-109): 05:02:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7df6ddc0>]}
 2022-09-03 05:02:12.909393 (Thread-109): sending response (<Response 1723 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 05:02:14.330267 (Thread-110): 05:02:14  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-09-03 05:02:14.330492 (Thread-110): 05:02:14  Partial parsing enabled, no changes found, skipping parsing
+2022-09-03 05:02:14.330956 (Thread-110): 05:02:14  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-03 05:02:14.336368 (Thread-110): 05:02:14  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7c68ad60>]}
+2022-09-03 05:02:15.386537 (Thread-111): handling status request
+2022-09-03 05:02:15.386988 (Thread-111): 05:02:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7c6f9130>]}
+2022-09-03 05:02:15.387504 (Thread-111): sending response (<Response 1723 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 05:02:15.471290 (Thread-112): handling status request
+2022-09-03 05:02:15.471705 (Thread-112): 05:02:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7c67ccd0>]}
+2022-09-03 05:02:15.472188 (Thread-112): sending response (<Response 1723 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 05:18:21.516171 (Thread-113): 05:18:21  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-09-03 05:18:21.517391 (Thread-113): 05:18:21  Partial parsing enabled, no changes found, skipping parsing
+2022-09-03 05:18:21.517824 (Thread-113): 05:18:21  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-03 05:18:21.522845 (Thread-113): 05:18:21  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7c5c25b0>]}
+2022-09-03 05:18:22.494911 (Thread-114): handling status request
+2022-09-03 05:18:22.495341 (Thread-114): 05:18:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7c67c760>]}
+2022-09-03 05:18:22.495857 (Thread-114): sending response (<Response 1723 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 05:18:22.721851 (Thread-115): handling status request
+2022-09-03 05:18:22.722281 (Thread-115): 05:18:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7c67c5b0>]}
+2022-09-03 05:18:22.722765 (Thread-115): sending response (<Response 1723 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 05:18:41.808423 (Thread-116): handling status request
+2022-09-03 05:18:41.808828 (Thread-116): 05:18:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7c67c550>]}
+2022-09-03 05:18:41.809312 (Thread-116): sending response (<Response 1723 bytes [200 OK]>) to 10.0.45.34
