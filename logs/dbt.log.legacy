@@ -8759,3 +8759,32 @@ There are 1 unused configuration paths:
 2022-09-03 04:34:17.680864 (Thread-82): handling status request
 2022-09-03 04:34:17.682198 (Thread-82): 04:34:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7df8aa60>]}
 2022-09-03 04:34:17.682685 (Thread-82): sending response (<Response 1719 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 04:34:19.343074 (Thread-83): 04:34:19  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-09-03 04:34:19.343288 (Thread-83): 04:34:19  Partial parsing enabled, no changes found, skipping parsing
+2022-09-03 04:34:19.343711 (Thread-83): 04:34:19  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-03 04:34:19.348851 (Thread-83): 04:34:19  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7df51610>]}
+2022-09-03 04:34:20.356928 (Thread-84): handling status request
+2022-09-03 04:34:20.357333 (Thread-84): 04:34:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7df3fdf0>]}
+2022-09-03 04:34:20.357827 (Thread-84): sending response (<Response 1719 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 04:34:20.832111 (Thread-85): handling status request
+2022-09-03 04:34:20.832537 (Thread-85): 04:34:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7df3fca0>]}
+2022-09-03 04:34:20.833029 (Thread-85): sending response (<Response 1719 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 04:42:48.119254 (Thread-86): 04:42:48  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-09-03 04:42:48.120818 (Thread-86): 04:42:48  Partial parsing enabled, no changes found, skipping parsing
+2022-09-03 04:42:48.121284 (Thread-86): 04:42:48  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+
+2022-09-03 04:42:48.126778 (Thread-86): 04:42:48  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7df35310>]}
+2022-09-03 04:42:49.025699 (Thread-87): handling status request
+2022-09-03 04:42:49.026146 (Thread-87): 04:42:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7df3e280>]}
+2022-09-03 04:42:49.026648 (Thread-87): sending response (<Response 1719 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 04:42:49.076811 (Thread-88): handling status request
+2022-09-03 04:42:49.077223 (Thread-88): 04:42:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7df3e4c0>]}
+2022-09-03 04:42:49.077702 (Thread-88): sending response (<Response 1719 bytes [200 OK]>) to 10.0.45.34
+2022-09-03 04:42:54.824088 (Thread-89): handling status request
+2022-09-03 04:42:54.824501 (Thread-89): 04:42:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c3b279d1-dd37-45d2-b3ac-44a471f040be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fad7df3e1f0>]}
+2022-09-03 04:42:54.824982 (Thread-89): sending response (<Response 1719 bytes [200 OK]>) to 10.0.45.34
